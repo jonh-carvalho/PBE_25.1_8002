@@ -316,3 +316,156 @@ Aqui está o protótipo de **telas do aplicativo de delivery** usando **Salt (Pl
   }
   ```
 
+  ---
+
+  ### Diagrama de Classe
+
+  Aqui está o **diagrama de classes conceitual** para o sistema de delivery, representando os principais conceitos e seus relacionamentos:
+
+### Diagrama de Classes (PlantUML)
+
+```plantuml
+@startuml FastDelivery_DiagramaClasses
+
+class Cliente {
+  - id: String
+  - nome: String
+  - email: String
+  - localizacao: String
+  + buscarRestaurantes()
+  + fazerPedido()
+}
+
+class Restaurante {
+  - id: String
+  - nome: String
+  - cardapio: List<Item>
+  - localizacao: String
+  + atualizarCardapio()
+  + confirmarPedido()
+}
+
+class Pedido {
+  - id: String
+  - itens: List<Item>
+  - status: String
+  - valorTotal: Double
+  + calcularTotal()
+  + atualizarStatus()
+}
+
+class Item {
+  - id: String
+  - nome: String
+  - preco: Double
+  - categoria: String
+}
+
+class Entregador {
+  - id: String
+  - nome: String
+  - veiculo: String
+  + aceitarPedido()
+  + atualizarLocalizacao()
+}
+
+class Pagamento {
+  - id: String
+  - metodo: String
+  - valor: Double
+  - status: String
+  + processarPagamento()
+}
+
+' Relacionamentos
+Cliente "1" --> "0..*" Pedido
+Restaurante "1" --> "0..*" Pedido
+Pedido "1" --> "1..*" Item
+Pedido "1" --> "1" Pagamento
+Pedido "1" --> "0..1" Entregador
+Restaurante "1" --> "0..*" Item
+
+@enduml
+```
+
+### Explicação:
+1. **Classes Principais**:
+   - **Cliente**: Realiza pedidos e busca restaurantes.
+   - **Restaurante**: Oferece itens do cardápio e confirma pedidos.
+   - **Pedido**: Agrupa itens, calcula total e rastreia status.
+   - **Item**: Produtos individuais do cardápio.
+   - **Entregador**: Responsável pela entrega.
+   - **Pagamento**: Processa transações.
+
+2. **Relacionamentos**:
+   - Um cliente faz **0 ou N** pedidos.
+   - Um pedido contém **1 ou N** itens.
+   - Um restaurante tem **0 ou N** itens no cardápio.
+   - Cada pedido tem **exatamente 1** pagamento.
+   - Um pedido pode estar associado a **0 ou 1** entregador.
+
+3. **Atributos e Métodos**:
+   - Atributos privados (indicados por `-`) e métodos públicos (`+`).
+   - Exemplo: `Pedido.calcularTotal()` soma os preços dos itens.
+
+---
+
+### Visualização Esperada:
+```
++-------------+       +-------------+       +-------------+
+|   Cliente   |       | Restaurante |       |  Entregador |
++-------------+       +-------------+       +-------------+
+| - id        |       | - id        |       | - id        |
+| - nome      |       | - nome      |       | - nome      |
+| - email     |       | - cardapio  |       | - veiculo   |
+| - localizacao|      | - localizacao|      +------------+
++-------------+       +-------------+             ^
+      |                   |                      |
+      | 1              1  |                      | 0..1
+      v                   v                      |
++-------------+       +-------------+       +-------------+
+|   Pedido    |       |    Item     |       |  Pagamento  |
++-------------+       +-------------+       +-------------+
+| - id        |       | - id        |       | - id        |
+| - itens     |       | - nome      |       | - metodo    |
+| - status    |       | - preco     |       | - valor     |
+| - valorTotal|       | - categoria |       | - status    |
++-------------+       +-------------+       +-------------+
+      | 1..*               ^                      ^ 1
+      |____________________|                      |
+```
+
+---
+
+### Adaptações Possíveis:
+1. **Adicionar Herança**:
+   ```plantuml
+   class Usuario {
+     - id: String
+     - nome: String
+   }
+   class Cliente {
+     - localizacao: String
+   }
+   class Entregador {
+     - veiculo: String
+   }
+   Usuario <|-- Cliente
+   Usuario <|-- Entregador
+   ```
+
+2. **Incluir Enums** (ex.: status do pedido):
+   ```plantuml
+   enum StatusPedido {
+     EM_PREPARO
+     EM_TRANSITO
+     ENTREGUE
+   }
+   class Pedido {
+     - status: StatusPedido
+   }
+   ```
+
+--- 
+
+
