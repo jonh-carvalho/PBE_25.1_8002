@@ -8,6 +8,15 @@
 | __04__ - 14/04/25     | :material-check:[RUP](../assets/Aulas/RUP.pdf)   |
 | __05__ - 21/03/25     | :material-check: Elaboração 5w2h  <br> :material-check:[Brainstorm](../assets/Aulas/O%20processo%20de brainstorm.pdf) e [Mapa Mental](../assets/Aulas/Mapa%20Mental.pdf)|
 | __06__ - 28/03/24     | :material-check: [Engenharia de Requisitos](..//assets/Aulas/Engenharia%20de%20Requisitos_Cap05.pdf)  <br> - [Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf) <br> - - Diagrama de Casos de Uso <br> - [Classes](../assets/Aulas/Classes_Pacotes.pdf) |
+| __07__ - 04/04/25     | :material-check: AP1    |
+| __08__ - 11/04/25     | :material-check: Python OO ([Notebook](../modelagem/poo/poo.ipynb), [Conceito de OO](../modelagem/poo/Conceitos-basicos-de-OO.pdf) e [Python OO](../modelagem/poo/Python-OO.pdf)                                         |
+| __09__ - 18/04/25     | :material-check: Feriado  |
+| __10__ - 25/04/25     | :material-check: App |
+| __10__ - 02/05/25     | :material-check: Feriado |
+| __10__ - 09/05/25     | :material-check: App |
+| __10__ - 16/05/25     | :material-check: App |
+| __10__ - 23/05/25     | :material-check: App |
+| __10__ - 30/05/25     | :material-check: App |
 <!--  
 | __11__ - 12/09/24     | :material-check:[Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf)                                                                                                                                             |
 | __12__ - 13/09/24     | :material-check: Análise OO e UML - Diagrama de Casos de Uso                                                                                                                                                   |
