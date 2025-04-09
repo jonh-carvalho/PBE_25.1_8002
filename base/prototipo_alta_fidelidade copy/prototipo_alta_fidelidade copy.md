@@ -1,6 +1,6 @@
 ---
-id: prototipoalta
-title: Protótipo Alta Fidelidade
+id: prototipobaixa
+title: Protótipo Baixa Fidelidade
 ---
 ## Introdução
 
