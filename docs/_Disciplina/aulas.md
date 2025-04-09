@@ -12,11 +12,13 @@
 | __08__ - 11/04/25     | :material-check: Python OO ([Notebook](../modelagem/poo/poo.ipynb), [Conceito de OO](../modelagem/poo/Conceitos-basicos-de-OO.pdf) e [Python OO](../modelagem/poo/Python-OO.pdf)                                         |
 | __09__ - 18/04/25     | :material-check: Feriado  |
 | __10__ - 25/04/25     | :material-check: App |
-| __10__ - 02/05/25     | :material-check: Feriado |
-| __10__ - 09/05/25     | :material-check: App |
-| __10__ - 16/05/25     | :material-check: App |
-| __10__ - 23/05/25     | :material-check: App |
-| __10__ - 30/05/25     | :material-check: App |
+| __11__ - 02/05/25     | :material-check: Feriado |
+| __12__ - 09/05/25     | :material-check: App |
+| __13__ - 16/05/25     | :material-check: App |
+| __14__ - 23/05/25     | :material-check: App |
+| __15__ - 06/06/25     | :material-check: App |
+| __16__ - 13/06/25     | :material-check: AP2 - Apresentação Projeto |
+| __17__ - 27/06/25     | :material-check: AS |
 <!--  
 | __11__ - 12/09/24     | :material-check:[Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf)                                                                                                                                             |
 | __12__ - 13/09/24     | :material-check: Análise OO e UML - Diagrama de Casos de Uso                                                                                                                                                   |
