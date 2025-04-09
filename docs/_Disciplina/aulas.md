@@ -19,6 +19,16 @@
 | __15__ - 06/06/25     | :material-check: App |
 | __16__ - 13/06/25     | :material-check: AP2 - Apresentação Projeto |
 | __17__ - 27/06/25     | :material-check: AS |
+
+<div>
+  <iframe id="inlineFrameExample"
+      title="Inline Frame Example"
+      width="300"
+      height="200"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+  </iframe>
+</div>
+
 <!--  
 | __11__ - 12/09/24     | :material-check:[Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf)                                                                                                                                             |
 | __12__ - 13/09/24     | :material-check: Análise OO e UML - Diagrama de Casos de Uso                                                                                                                                                   |
