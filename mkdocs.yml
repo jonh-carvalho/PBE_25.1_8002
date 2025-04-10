@@ -4,7 +4,7 @@ repo_url: https://github.com/jonh-carvalho/PBE_25.1_8002
 theme:
   name: material
   palette:
-    primary: magenta
+    primary: indigo 
   color_mode: dark
   locale: pt_BR
   language: pt-BR

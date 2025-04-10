@@ -1,10 +1,10 @@
-### **06 - Exemplo de Levantamento de Requisitos e Caso de Uso**
+# **06 - Levantamento de Requisitos e Caso de Uso**
 
 **Sistema:** Aplicativo de Delivery de Comida (*"FastDelivery"*)
 
 ---
 
-### **1. Identificação dos Stakeholders**
+## **1. Identificação dos Stakeholders**
 
 - **Clientes:** Pessoas que fazem pedidos.
 - **Restaurantes:** Estabelecimentos parceiros.
