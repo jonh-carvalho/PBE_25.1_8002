@@ -9,7 +9,7 @@
 | __05__ - 21/03/25     | :material-check: Elaboração 5w2h  <br> :material-check:[Brainstorm](../assets/Aulas/O%20processo%20de brainstorm.pdf) e [Mapa Mental](../assets/Aulas/Mapa%20Mental.pdf)|
 | __06__ - 28/03/24     | :material-check: [Engenharia de Requisitos](..//assets/Aulas/Engenharia%20de%20Requisitos_Cap05.pdf)  <br> - [Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf) <br> - Diagrama de Casos de Uso <br> - [Classes](../assets/Aulas/Classes_Pacotes.pdf) |
 | __07__ - 04/04/25     | :material-check: AP1    |
-| __08__ - 11/04/25     | :material-check: Python OO <br> - [Notebook](../modelagem/poo/poo.ipynb) <br> - [Conceito de OO](../modelagem/poo/Conceitos-basicos-de-OO.pdf) <br> - [Python OO](../modelagem/poo/Python-OO.pdf) <br> - Introdução ao Django  |
+| __08__ - 11/04/25     | :material-check: Python OO <br> - [Notebook](../Disciplina/Roteiros/__Construção/Poo/Poo.ipynb) <br> - [Conceito de OO](../Disciplina/Roteiros/__Construção/Poo/Conceitos-basicos-de-OO.pdf) <br> - [Python OO](../Disciplina/Roteiros/__Construção/Poo/Python-OO.pdf) <br> - Introdução ao Django  |
 | __09__ - 18/04/25     | :material-check: Feriado  |
 | __10__ - 25/04/25     | :material-check: Introdução SQL - Sqlite  |
 | __11__ - 02/05/25     | :material-check: Feriado |
