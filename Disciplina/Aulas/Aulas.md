@@ -18,7 +18,8 @@
 | __14__ - 23/05/25     | :material-check: App |
 | __15__ - 06/06/25     | :material-check: App |
 | __16__ - 13/06/25     | :material-check: AP2 - Apresentação Projeto |
-| __17__ - 27/06/25     | :material-check: AS |
+| __18__ - 20/06/25     | -------- |
+| __19__ - 27/06/25     | :material-check: AS |
 <!--  
 | __13__ - 19/09/24     | :material-check:[Classes](../assets/Aulas/Classes_Pacotes.pdf)    |
 | __16__ - 27/09/24     | ----------------------------------------------------------  |
