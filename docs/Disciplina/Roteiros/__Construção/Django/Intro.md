@@ -93,7 +93,7 @@ ou
 1. Crie uma nova aplicação:
 
    ```bash
-   python manage.py startapp minhaapp
+   python manage.py startapp myapp
    ```
 
 2. Adicione a aplicação ao `INSTALLED_APPS` em `myproject/settings.py`:
@@ -101,13 +101,13 @@ ou
    ```python
    INSTALLED_APPS = [
        ...
-       'minhaapp',
+       'myapp',
    ]
    ```
 
 ## Passo 6: Configurar URLs e Views Básicas
 
-1. Crie um arquivo `urls.py` na pasta `minhaapp`:
+1. Crie um arquivo `urls.py` na pasta `myapp`:
 
    ```python
    from django.urls import path
@@ -126,11 +126,11 @@ ou
 
    urlpatterns = [
        path('admin/', admin.site.urls),
-       path('', include('minhaapp.urls')),
+       path('', include('myapp.urls')),
    ]
    ```
 
-3. Crie uma view básica em `minhaapp/views.py`:
+3. Crie uma view básica em `myapp/views.py`:
 
    ```python
    from django.shortcuts import render
@@ -142,7 +142,7 @@ ou
 
 ## Passo 7: Criar Modelos e Migrações
 
-1. Defina um modelo em `minhaapp/models.py`:
+1. Defina um modelo em `myapp/models.py`:
 
    ```python
    from django.db import models
@@ -172,7 +172,7 @@ ou
    python manage.py createsuperuser
    ```
 
-2. Registre o modelo no admin (`minhaapp/admin.py`):
+2. Registre o modelo no admin (`myapp/admin.py`):
 
    ```python
    from django.contrib import admin
