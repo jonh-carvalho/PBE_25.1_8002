@@ -26,7 +26,7 @@ theme:
 plugins:
   - search
   - mkdocs-jupyter:
-      execute: true
+      execute: false
       include_requirejs: true
       include_source: true
 
