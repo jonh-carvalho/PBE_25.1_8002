@@ -16,10 +16,10 @@
 | __12__ - 09/05/25     | :material-check: App |
 | __13__ - 16/05/25     | :material-check: [Protótipo Figma](https://www.figma.com/design/cX8mG3fK90aDRvKdE1PcjB/AMIP?node-id=0-1&t=OBSmh1kIfQ6sAVub-1) |
 | __14__ - 23/05/25     | :material-check: App |
-| __15__ - 06/06/25     | :material-check: App |
-| __16__ - 13/06/25     | :material-check: AP2 - Apresentação Projeto |
-| __18__ - 20/06/25     | -------- |
-| __19__ - 27/06/25     | :material-check: AS |
+| __15__ - 30/06/25     | :material-check: App |
+| __16__ - 06/06/25     | :material-check: App |
+| __18__ - 13/06/25     | :material-check: AP2 - Apresentação Projeto |
+| __19__ - 20/06/25     | :material-check: AS |
 <!--  
 | __13__ - 19/09/24     | :material-check:[Classes](../assets/Aulas/Classes_Pacotes.pdf)    |
 | __16__ - 27/09/24     | ----------------------------------------------------------  |
