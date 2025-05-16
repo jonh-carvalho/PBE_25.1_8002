@@ -11,15 +11,16 @@
 | __07__ - 04/04/25     | :material-check: AP1    |
 | __08__ - 11/04/25     | :material-check: Python OO <br> - [Notebook](../Disciplina/Roteiros/__Construção/Poo/Poo.ipynb) <br> - [Conceito de OO](../Disciplina/Roteiros/__Construção/Poo/Conceitos-basicos-de-OO.pdf) <br> - [Python OO](../Disciplina/Roteiros/__Construção/Poo/Python-OO.pdf) <br> - Introdução ao Django  |
 | __09__ - 18/04/25     | :material-check: Feriado  |
-| __10__ - 25/04/25     | :material-check: Introdução SQL - Sqlite  |
+| __10__ - 25/04/25     | :material-check: Roteiro Django Rest- Introdução SQL - Sqlite  |
 | __11__ - 02/05/25     | :material-check: Feriado |
-| __12__ - 09/05/25     | :material-check: App |
-| __13__ - 16/05/25     | :material-check: [Protótipo Figma](https://www.figma.com/design/cX8mG3fK90aDRvKdE1PcjB/AMIP?node-id=0-1&t=OBSmh1kIfQ6sAVub-1) |
+| __12__ - 09/05/25     | :material-check: Roteiro Streaming - Content 1xN|
+| __13__ - 16/05/25     | :material-check: Roteiro Streaming - PlayList NxN|
 | __14__ - 23/05/25     | :material-check: App |
-| __15__ - 30/06/25     | :material-check: App |
+| __15__ - 30/05/25     | :material-check: App |
 | __16__ - 06/06/25     | :material-check: App |
-| __18__ - 13/06/25     | :material-check: AP2 - Apresentação Projeto |
-| __19__ - 20/06/25     | :material-check: AS |
+| __17__ - 13/06/25     | :material-check: AP2 - Apresentação Projeto |
+| __18__ - 20/06/25     | :material-check: Feriado |
+| __19__ - 27/06/25     | :material-check: AS |
 <!--  
 | __13__ - 19/09/24     | :material-check:[Classes](../assets/Aulas/Classes_Pacotes.pdf)    |
 | __16__ - 27/09/24     | ----------------------------------------------------------  |
