@@ -1,0 +1,95 @@
+@startuml
+
+class User {
+    + int id
+    + String username
+    + String email
+    + String password_hash
+    + String full_name
+    + String profile_pic
+    + String role
+    + DateTime date_joined
+    + DateTime last_login
+    + boolean is_active
+    --
+    + login()
+    + register()
+    + updateProfile()
+}
+
+class Content {
+    + int id
+    + String title
+    + String description
+    + String file_url
+    + String thumbnail_url
+    + String content_type
+    + DateTime upload_date
+    + int views
+    + int likes
+    + boolean is_public
+    + String status
+    --
+    + upload()
+    + deleteContent()
+    + updateContent()
+}
+
+class Playlist {
+    + int id
+    + String title
+    + String description
+    + boolean is_public
+    + DateTime creation_date
+    --
+    + addContent()
+    + removeContent()
+}
+
+class Comment {
+    + int id
+    + String comment_text
+    + DateTime comment_date
+    --
+    + addComment()
+    + deleteComment()
+}
+
+class Like {
+    + int id
+    + DateTime like_date
+    --
+    + addLike()
+    + removeLike()
+}
+
+class Subscription {
+    + int id
+    + DateTime start_date
+    + DateTime end_date
+    + String status
+    --
+    + subscribe()
+    + cancelSubscription()
+}
+
+class ViewHistory {
+    + int id
+    + DateTime view_date
+    --
+    + addView()
+    + getHistory()
+}
+
+User "1" -- "N" Content : "creates"
+User "1" -- "N" Playlist : "owns"
+Playlist "N" -- "M" Content : "contains"
+User "1" -- "N" Comment : "makes"
+User "1" -- "N" Like : "likes"
+Content "1" -- "N" Comment : "has"
+Content "1" -- "N" Like : "has"
+User "1" -- "1" Subscription : "subscribes to"
+User "1" -- "N" ViewHistory : "views"
+Content "1" -- "N" ViewHistory : "viewed by"
+
+@enduml

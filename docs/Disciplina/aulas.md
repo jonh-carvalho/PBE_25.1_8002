@@ -14,7 +14,7 @@
 | __10__ - 25/04/25     | :material-check: Introdução SQL - Sqlite  |
 | __11__ - 02/05/25     | :material-check: Feriado |
 | __12__ - 09/05/25     | :material-check: App |
-| __13__ - 16/05/25     | :material-check: App |
+| __13__ - 16/05/25     | :material-check: [Protótipo Figma](https://www.figma.com/design/cX8mG3fK90aDRvKdE1PcjB/AMIP?node-id=0-1&t=OBSmh1kIfQ6sAVub-1) |
 | __14__ - 23/05/25     | :material-check: App |
 | __15__ - 06/06/25     | :material-check: App |
 | __16__ - 13/06/25     | :material-check: AP2 - Apresentação Projeto |
