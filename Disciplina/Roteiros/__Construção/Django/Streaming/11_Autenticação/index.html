@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../04_Shell_Streaming/">
+        <link rel="prev" href="../10_Admin_Streaming/">
       
       
-        <link rel="next" href="../06_Consume_Streaming_Web/">
+        <link rel="next" href="../12_Filtros/">
       
       
       <link rel="icon" href="../../../../../../images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>5 - Consume API - Projeto Back-End</title>
+        <title>011 - Autenticação - Projeto Back-End</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#5-consume-api" class="md-skip">
+        <a href="#011-autenticacao" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              5 - Consume API
+              011 - Autenticação
             
           </span>
         </div>
@@ -1014,11 +1014,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_Projeto_Streaming/" class="md-nav__link">
+      <a href="../00_Projeto_Streaming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    01 - Projeto Streaming
+    00 - Projeto Streaming
   </span>
   
 
@@ -1039,7 +1039,7 @@
         
   
   <span class="md-ellipsis">
-    02 - Regras de Negócio
+    01 - Regras de Negócio
   </span>
   
 
@@ -1098,11 +1098,137 @@
   
   
     <li class="md-nav__item">
-      <a href="../04_Shell_Streaming/" class="md-nav__link">
+      <a href="../04_Consume_Streaming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    04 - Django Shell
+    04 - Consume API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_Playlist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    05 - Playlist -Relacionamento NxN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_Shell_Streaming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    06 - Django Shell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_Carga%20de%20Dados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    07 - Cargas de Dados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_CorsOrigin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    08 - Cross-Origin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_Consume_Streaming_Web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    09 - Fetch consume API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_Admin_Streaming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10 - Django Admin
   </span>
   
 
@@ -1132,7 +1258,7 @@
           
   
   <span class="md-ellipsis">
-    5 - Consume API
+    011 - Autenticação
   </span>
   
 
@@ -1143,7 +1269,7 @@
         
   
   <span class="md-ellipsis">
-    5 - Consume API
+    011 - Autenticação
   </span>
   
 
@@ -1171,50 +1297,59 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Introdução">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autenticacao-via-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autenticação via Token
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Autenticação via Token">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-urls-principais-da-api" class="md-nav__link">
+  <a href="#passo-1-configurar-autenticacao-por-token-no-django-rest-framework" class="md-nav__link">
     <span class="md-ellipsis">
-      1. URLs Principais da API
+      Passo 1: Configurar Autenticação por Token no Django REST Framework
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-acessando-via-navegador" class="md-nav__link">
+  <a href="#passo-2-gerar-tokens-de-autenticacao" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Acessando via Navegador
+      Passo 2: Gerar Tokens de Autenticação
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-autenticacao-de-usuario" class="md-nav__link">
+  <a href="#passo-3-obter-o-token-de-autenticacao" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Autenticação de Usuário
+      Passo 3: Obter o Token de Autenticação
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. Autenticação de Usuário">
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-4-usar-o-token-para-consumir-a-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passo 4: Usar o Token para Consumir a API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passo 4: Usar o Token para Consumir a API">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#a-autenticacao-de-sessao" class="md-nav__link">
+  <a href="#exemplo-de-consumo-no-postman" class="md-nav__link">
     <span class="md-ellipsis">
-      a) Autenticação de Sessão
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#b-autenticacao-basica-basic-auth" class="md-nav__link">
-    <span class="md-ellipsis">
-      b) Autenticação Básica (Basic Auth)
+      Exemplo de Consumo no Postman
     </span>
   </a>
   
@@ -1226,69 +1361,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-exemplos-de-requisicoes" class="md-nav__link">
+  <a href="#alternativa-uso-no-frontend-com-javascript-fetch-api" class="md-nav__link">
     <span class="md-ellipsis">
-      4. Exemplos de Requisições
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="4. Exemplos de Requisições">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-get-listar-todos-os-conteudos" class="md-nav__link">
-    <span class="md-ellipsis">
-      a) GET - Listar todos os conteúdos
+      Alternativa: Uso no Frontend com JavaScript (Fetch API)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#b-post-criar-um-novo-conteudo" class="md-nav__link">
+  <a href="#consideracoes-finais" class="md-nav__link">
     <span class="md-ellipsis">
-      b) POST - Criar um novo conteúdo
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#c-put-atualizar-um-conteudo" class="md-nav__link">
-    <span class="md-ellipsis">
-      c) PUT - Atualizar um conteúdo
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#d-delete-remover-um-conteudo" class="md-nav__link">
-    <span class="md-ellipsis">
-      d) DELETE - Remover um conteúdo
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-filtros-e-busca" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Filtros e Busca
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#resumo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resumo
+      Considerações Finais
     </span>
   </a>
   
@@ -1315,95 +1399,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../06_Consume_Streaming_Web/" class="md-nav__link">
+      <a href="../12_Filtros/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    6 - Fetch consume API
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../07_Admin_Streaming/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    7 - Django Admin
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../08_CorsOrigin/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Cross-Origin
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../09_Filtros/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    9 - Filtros
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../10_Autentica%C3%A7%C3%A3o/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    10 Autenticação
+    012 - Filtros
   </span>
   
 
@@ -2549,50 +2549,59 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Introdução">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autenticacao-via-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autenticação via Token
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Autenticação via Token">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-urls-principais-da-api" class="md-nav__link">
+  <a href="#passo-1-configurar-autenticacao-por-token-no-django-rest-framework" class="md-nav__link">
     <span class="md-ellipsis">
-      1. URLs Principais da API
+      Passo 1: Configurar Autenticação por Token no Django REST Framework
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-acessando-via-navegador" class="md-nav__link">
+  <a href="#passo-2-gerar-tokens-de-autenticacao" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Acessando via Navegador
+      Passo 2: Gerar Tokens de Autenticação
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-autenticacao-de-usuario" class="md-nav__link">
+  <a href="#passo-3-obter-o-token-de-autenticacao" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Autenticação de Usuário
+      Passo 3: Obter o Token de Autenticação
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. Autenticação de Usuário">
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-4-usar-o-token-para-consumir-a-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passo 4: Usar o Token para Consumir a API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Passo 4: Usar o Token para Consumir a API">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#a-autenticacao-de-sessao" class="md-nav__link">
+  <a href="#exemplo-de-consumo-no-postman" class="md-nav__link">
     <span class="md-ellipsis">
-      a) Autenticação de Sessão
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#b-autenticacao-basica-basic-auth" class="md-nav__link">
-    <span class="md-ellipsis">
-      b) Autenticação Básica (Basic Auth)
+      Exemplo de Consumo no Postman
     </span>
   </a>
   
@@ -2604,69 +2613,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-exemplos-de-requisicoes" class="md-nav__link">
+  <a href="#alternativa-uso-no-frontend-com-javascript-fetch-api" class="md-nav__link">
     <span class="md-ellipsis">
-      4. Exemplos de Requisições
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="4. Exemplos de Requisições">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-get-listar-todos-os-conteudos" class="md-nav__link">
-    <span class="md-ellipsis">
-      a) GET - Listar todos os conteúdos
+      Alternativa: Uso no Frontend com JavaScript (Fetch API)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#b-post-criar-um-novo-conteudo" class="md-nav__link">
+  <a href="#consideracoes-finais" class="md-nav__link">
     <span class="md-ellipsis">
-      b) POST - Criar um novo conteúdo
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#c-put-atualizar-um-conteudo" class="md-nav__link">
-    <span class="md-ellipsis">
-      c) PUT - Atualizar um conteúdo
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#d-delete-remover-um-conteudo" class="md-nav__link">
-    <span class="md-ellipsis">
-      d) DELETE - Remover um conteúdo
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-filtros-e-busca" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Filtros e Busca
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#resumo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resumo
+      Considerações Finais
     </span>
   </a>
   
@@ -2695,129 +2653,109 @@
   
 
 
-<h1 id="5-consume-api">5 - <strong>Consume API</strong></h1>
+<h1 id="011-autenticacao">011 - <strong>Autenticação</strong></h1>
 <h2 id="introducao">Introdução</h2>
+<p>Para autenticar no Django REST Framework (DRF) e consumir a API como um usuário logado, você pode usar várias abordagens de autenticação, como:</p>
+<ol>
+<li><strong>Autenticação via Token</strong>.</li>
+<li><strong>Autenticação via Sessão/Cookie (principalmente para navegadores)</strong>.</li>
+<li><strong>Autenticação JWT</strong> (JSON Web Token).</li>
+</ol>
+<h2 id="autenticacao-via-token">Autenticação via Token</h2>
+<p>Abaixo, vamos ver como configurar a <strong>Autenticação via Token</strong> no Django e como consumir a API com um token de autenticação.</p>
+<h3 id="passo-1-configurar-autenticacao-por-token-no-django-rest-framework">Passo 1: Configurar Autenticação por Token no Django REST Framework</h3>
+<p>1. Instale o pacote <code>djangorestframework</code> (caso ainda não tenha):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="w">    </span>pip<span class="w"> </span>install<span class="w"> </span>djangorestframework
+</span></code></pre></div>
+<p>2. Instale o pacote <code>django-rest-authtoken</code>, necessário para gerar e gerenciar tokens de autenticação:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="w">   </span>pip<span class="w"> </span>install<span class="w"> </span>django-rest-authtoken
+</span></code></pre></div>
+<p>3. Adicione <code>rest_framework</code> e <code>rest_framework.authtoken</code> ao <code>INSTALLED_APPS</code> no seu <code>settings.py</code>:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>   <span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">[</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>       <span class="c1"># Outros apps</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>       <span class="s1">&#39;rest_framework&#39;</span><span class="p">,</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>       <span class="s1">&#39;rest_authtoken&#39;</span><span class="p">,</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>   <span class="p">]</span>
+</span></code></pre></div>
+<p>4. Configure o Django REST Framework para usar a autenticação por token:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>   <span class="c1"># settings.py</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>   <span class="n">REST_FRAMEWORK</span> <span class="o">=</span> <span class="p">{</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>       <span class="s1">&#39;DEFAULT_AUTHENTICATION_CLASSES&#39;</span><span class="p">:</span> <span class="p">[</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>           <span class="s1">&#39;rest_framework.authentication.TokenAuthentication&#39;</span><span class="p">,</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>       <span class="p">],</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>       <span class="s1">&#39;DEFAULT_PERMISSION_CLASSES&#39;</span><span class="p">:</span> <span class="p">[</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>           <span class="s1">&#39;rest_framework.permissions.IsAuthenticated&#39;</span><span class="p">,</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>       <span class="p">],</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>   <span class="p">}</span>
+</span></code></pre></div>
+<p>5. Execute a migração para criar as tabelas necessárias:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="w">   </span>python<span class="w"> </span>manage.py<span class="w"> </span>migrate
+</span></code></pre></div>
+<h3 id="passo-2-gerar-tokens-de-autenticacao">Passo 2: Gerar Tokens de Autenticação</h3>
+<p>Crie uma URL para o endpoint de obtenção de tokens de autenticação. No seu <code>urls.py</code>, adicione:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kn">from</span> <span class="nn">rest_framework.authtoken.views</span> <span class="kn">import</span> <span class="n">obtain_auth_token</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    <span class="c1"># Outras rotas</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>    <span class="n">path</span><span class="p">(</span><span class="s1">&#39;api/token/&#39;</span><span class="p">,</span> <span class="n">obtain_auth_token</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;api_token_auth&#39;</span><span class="p">),</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="p">]</span>
+</span></code></pre></div>
+<p>Com isso, os usuários poderão obter tokens enviando uma requisição <code>POST</code> com suas credenciais (usuário e senha) para <code>api/token/</code>.</p>
+<h3 id="passo-3-obter-o-token-de-autenticacao">Passo 3: Obter o Token de Autenticação</h3>
+<p>Para obter o token, você pode usar o <code>curl</code>, Postman, ou qualquer cliente HTTP. No Postman, por exemplo:</p>
 <ul>
-<li>Para acessar a API criada no Django REST framework, siga os passos abaixo. A API está acessível através de rotas prefixadas por <code>api/</code> conforme configurado no arquivo <code>urls.py</code>. Você pode testar a API usando ferramentas como <strong>Postman</strong>, <strong>Insomnia</strong>, ou até mesmo <strong>cURL</strong> no terminal.</li>
+<li>Envie uma requisição <code>POST</code> para <code>http://localhost:8000/api/token/</code>.</li>
+<li>No corpo da requisição (<code>body</code>), envie as credenciais como <code>x-www-form-urlencoded</code>:</li>
 </ul>
-<h3 id="1-urls-principais-da-api">1. <strong>URLs Principais da API</strong></h3>
-<p>Com base na configuração do roteamento, as URLs disponíveis são:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>   username: seu_usuario
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>   password: sua_senha
+</span></code></pre></div>
+<p>ou no body -&gt; raw -&gt; json</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="p">{</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">        </span><span class="nt">&quot;username&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;admin&quot;</span><span class="p">,</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">        </span><span class="nt">&quot;password&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;123456&quot;</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="err">A</span><span class="w"> </span><span class="err">respos</span><span class="kc">ta</span><span class="w"> </span><span class="err">será</span><span class="w"> </span><span class="err">o</span><span class="w"> </span><span class="kc">t</span><span class="err">oke</span><span class="kc">n</span><span class="w"> </span><span class="err">de</span><span class="w"> </span><span class="err">au</span><span class="kc">tent</span><span class="err">icação</span><span class="w"> </span><span class="err">do</span><span class="w"> </span><span class="err">usuário</span><span class="p">,</span><span class="w"> </span><span class="err">por</span><span class="w"> </span><span class="err">exemplo</span><span class="p">:</span>
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="err">```jso</span><span class="kc">n</span>
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="p">{</span>
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a><span class="w">    </span><span class="nt">&quot;token&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;c1c82e123abc123abcde4567def01234abcd5678&quot;</span>
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="passo-4-usar-o-token-para-consumir-a-api">Passo 4: Usar o Token para Consumir a API</h3>
+<p>Agora, ao consumir a API, adicione o token ao cabeçalho de autenticação (<code>Authorization</code>) usando o formato <code>Token &lt;token&gt;</code>.</p>
+<h4 id="exemplo-de-consumo-no-postman">Exemplo de Consumo no Postman</h4>
+<ol>
+<li>Acesse qualquer endpoint da API protegido, como <code>http://localhost:8000/api/contents/</code>.</li>
+<li>No cabeçalho (<code>Headers</code>), adicione:</li>
+</ol>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>  Key: Authorization 
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>  value: token c1c82e123abc123abcde4567def01234abcd5678
+</span></code></pre></div>
+<p>Com esse cabeçalho, o Django REST Framework identificará o usuário autenticado e permitirá o acesso aos recursos da API, desde que o usuário tenha as permissões necessárias.</p>
+<h3 id="alternativa-uso-no-frontend-com-javascript-fetch-api">Alternativa: Uso no Frontend com JavaScript (Fetch API)</h3>
+<p>Se estiver consumindo a API com JavaScript no frontend, o código para usar o token ficaria assim:</p>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;http://localhost:8000/api/contents/&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">    </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;GET&#39;</span><span class="p">,</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="w">    </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">        </span><span class="s1">&#39;Authorization&#39;</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;Token c1c82e123abc123abcde4567def01234abcd5678&#39;</span><span class="p">,</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="w">        </span><span class="s1">&#39;Content-Type&#39;</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;application/json&#39;</span>
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="p">})</span>
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">))</span>
+</span><span id="__span-9-10"><a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a><span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="s1">&#39;Error:&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">error</span><span class="p">));</span>
+</span></code></pre></div>
+<h3 id="consideracoes-finais">Considerações Finais</h3>
 <ul>
-<li><strong>Listar todos os conteúdos</strong>: <code>GET /api/contents/</code></li>
-<li><strong>Criar um novo conteúdo</strong>: <code>POST /api/contents/</code> (Requer autenticação)</li>
-<li><strong>Ver detalhes de um conteúdo específico</strong>: <code>GET /api/contents/&lt;id&gt;/</code></li>
-<li><strong>Atualizar um conteúdo</strong>: <code>PUT /api/contents/&lt;id&gt;/</code> (Requer autenticação)</li>
-<li><strong>Deletar um conteúdo</strong>: <code>DELETE /api/contents/&lt;id&gt;/</code> (Requer autenticação)</li>
+<li><strong>Manter o Token Seguro</strong>: Evite expor o token em locais de fácil acesso ou em JavaScript sem proteção.</li>
+<li><strong>Token Expirável (opcional)</strong>: O pacote <code>django-rest-framework-simplejwt</code> oferece tokens JWT com tempo de expiração configurável, se precisar de tokens mais seguros.</li>
 </ul>
-<h3 id="2-acessando-via-navegador">2. <strong>Acessando via Navegador</strong></h3>
-<p>Se você estiver rodando o servidor de desenvolvimento do Django localmente, use o comando:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>python<span class="w"> </span>manage.py<span class="w"> </span>runserver
-</span></code></pre></div>
-<p>Agora, você pode acessar a API via navegador (ou Postman) em:</p>
-<ul>
-<li><strong><a href="http://127.0.0.1:8000/api/contents/">Listar</a></strong> — para listar todos os conteúdos.</li>
-</ul>
-<p>O Django REST framework oferece uma interface de navegação de API embutida. Se você acessar a API pelo navegador, verá uma interface amigável onde pode visualizar, criar, editar e excluir registros.</p>
-<h3 id="3-autenticacao-de-usuario">3. <strong>Autenticação de Usuário</strong></h3>
-<p>Alguns endpoints (como criar, atualizar e deletar conteúdo) requerem que o usuário esteja autenticado. Existem várias maneiras de se autenticar:</p>
-<h4 id="a-autenticacao-de-sessao">a) <strong>Autenticação de Sessão</strong></h4>
-<p>Se você estiver logado como usuário no Django Admin, pode testar a API no mesmo navegador porque as credenciais de sessão serão reutilizadas.</p>
-<ol>
-<li>Acesse o Django Admin em <code>http://127.0.0.1:8000/admin/</code>.</li>
-<li>Faça login com um superusuário.</li>
-<li>Agora, vá para <code>http://127.0.0.1:8000/api/contents/</code> e você poderá fazer operações autenticadas diretamente no navegador.</li>
-</ol>
-<h4 id="b-autenticacao-basica-basic-auth">b) <strong>Autenticação Básica (Basic Auth)</strong></h4>
-<p>Para testar com ferramentas como <strong>Postman</strong> ou <strong>cURL</strong>, você pode usar autenticação básica.</p>
-<p><strong>No Postman</strong>:</p>
-<ol>
-<li>No cabeçalho da requisição, vá até a aba "Authorization".</li>
-<li>Selecione o tipo "Basic Auth".</li>
-<li>Insira seu <strong>username</strong> e <strong>password</strong>.</li>
-</ol>
-<p><strong>Com cURL</strong>:
-Você pode usar o seguinte comando no terminal para criar um novo conteúdo (por exemplo):</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>http://127.0.0.1:8000/api/contents/<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span>-u<span class="w"> </span>&lt;username&gt;:&lt;password&gt;<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="s1">        &quot;title&quot;: &quot;Sample Video&quot;,</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="s1">        &quot;description&quot;: &quot;A sample video description&quot;,</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="s1">        &quot;file_url&quot;: &quot;http://example.com/sample.mp4&quot;,</span>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="s1">        &quot;thumbnail_url&quot;: &quot;http://example.com/thumb.jpg&quot;,</span>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="s1">        &quot;content_type&quot;: &quot;video&quot;,</span>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="s1">        &quot;is_public&quot;: true</span>
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="s1">      }&#39;</span>
-</span></code></pre></div>
-<h3 id="4-exemplos-de-requisicoes">4. <strong>Exemplos de Requisições</strong></h3>
-<h4 id="a-get-listar-todos-os-conteudos">a) <strong>GET - Listar todos os conteúdos</strong></h4>
-<p>Você pode listar todos os conteúdos disponíveis com a seguinte requisição:</p>
-<p><strong>Com cURL</strong>:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>GET<span class="w"> </span>http://127.0.0.1:8000/api/contents/
-</span></code></pre></div>
-<h4 id="b-post-criar-um-novo-conteudo">b) <strong>POST - Criar um novo conteúdo</strong></h4>
-<p>Para criar um novo conteúdo, você precisa estar autenticado e fornecer os dados adequados:</p>
-<p><strong>No Postman</strong>:</p>
-<ol>
-<li>Defina o método como <code>POST</code>.</li>
-<li>No campo URL, insira <code>http://127.0.0.1:8000/api/contents/</code>.</li>
-<li>Vá até a aba "Body" e selecione <code>raw</code> com o tipo <code>JSON</code>, e insira algo como:</li>
-</ol>
-<div class="language-json highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My Video&quot;</span><span class="p">,</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A video description&quot;</span><span class="p">,</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="nt">&quot;file_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://example.com/video.mp4&quot;</span><span class="p">,</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="nt">&quot;thumbnail_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://example.com/thumbnail.jpg&quot;</span><span class="p">,</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="nt">&quot;content_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;video&quot;</span><span class="p">,</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="nt">&quot;is_public&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="p">}</span>
-</span></code></pre></div>
-<ol>
-<li>Envie a requisição.</li>
-</ol>
-<h4 id="c-put-atualizar-um-conteudo">c) <strong>PUT - Atualizar um conteúdo</strong></h4>
-<p>Atualizar um conteúdo requer que você esteja autenticado e seja o criador do conteúdo.</p>
-<p><strong>Com cURL</strong>:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>PUT<span class="w"> </span>http://127.0.0.1:8000/api/contents/&lt;id&gt;/<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span>-u<span class="w"> </span>&lt;username&gt;:&lt;password&gt;<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="s1">        &quot;title&quot;: &quot;Updated Video Title&quot;,</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="s1">        &quot;description&quot;: &quot;Updated description&quot;</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="s1">      }&#39;</span>
-</span></code></pre></div>
-<h4 id="d-delete-remover-um-conteudo">d) <strong>DELETE - Remover um conteúdo</strong></h4>
-<p>Para deletar um conteúdo (somente se você for o criador ou administrador):</p>
-<p><strong>Com cURL</strong>:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span>http://127.0.0.1:8000/api/contents/&lt;id&gt;/<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span>-u<span class="w"> </span>&lt;username&gt;:&lt;password&gt;
-</span></code></pre></div>
-<h3 id="5-filtros-e-busca">5. <strong>Filtros e Busca</strong></h3>
-<p>Você pode adicionar filtros de busca com base nos campos do modelo <code>Content</code> (como <code>title</code>, <code>content_type</code>, etc.), integrando a funcionalidade de filtros no Django REST framework usando <code>DjangoFilterBackend</code>.</p>
-<p>Exemplo de adição de filtro para busca por título ou tipo de conteúdo:</p>
-<p><strong>No <code>views.py</code></strong>:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">viewsets</span><span class="p">,</span> <span class="n">filters</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="kn">from</span> <span class="nn">django_filters.rest_framework</span> <span class="kn">import</span> <span class="n">DjangoFilterBackend</span>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="k">class</span> <span class="nc">ContentViewSet</span><span class="p">(</span><span class="n">viewsets</span><span class="o">.</span><span class="n">ModelViewSet</span><span class="p">):</span>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Content</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ContentSerializer</span>
-</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    <span class="n">filter_backends</span> <span class="o">=</span> <span class="p">[</span><span class="n">DjangoFilterBackend</span><span class="p">,</span> <span class="n">filters</span><span class="o">.</span><span class="n">SearchFilter</span><span class="p">]</span>
-</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>    <span class="n">search_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;content_type&#39;</span><span class="p">]</span>
-</span></code></pre></div>
-<p>Agora você pode buscar por título ou tipo de conteúdo:</p>
-<ul>
-<li><code>GET /api/contents/?search=My Video</code></li>
-<li><code>GET /api/contents/?search=audio</code></li>
-</ul>
-<h3 id="resumo">Resumo</h3>
-<ol>
-<li>Acesse a API via <code>http://127.0.0.1:8000/api/contents/</code>.</li>
-<li>Utilize autenticação para operações que requerem login (POST, PUT, DELETE).</li>
-<li>Use ferramentas como Postman ou cURL para testar os endpoints.</li>
-<li>Adicione filtros ou funcionalidades adicionais conforme necessário.</li>
-</ol>
-<p>Assim, a API está configurada e pronta para ser consumida por frontends, aplicativos móveis ou outras aplicações REST.</p>
+<p>Esse fluxo permite que seu app Django autentique usuários e proteja rotas da API, limitando o acesso a quem possui um token válido.</p>
 
 
 
@@ -2853,7 +2791,7 @@ Você pode usar o seguinte comando no terminal para criar um novo conteúdo (por
       <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
         
           
-          <a href="../04_Shell_Streaming/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 04 - Django Shell">
+          <a href="../10_Admin_Streaming/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 10 - Django Admin">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2863,20 +2801,20 @@ Você pode usar o seguinte comando no terminal para criar um novo conteúdo (por
                 Anterior
               </span>
               <div class="md-ellipsis">
-                04 - Django Shell
+                10 - Django Admin
               </div>
             </div>
           </a>
         
         
           
-          <a href="../06_Consume_Streaming_Web/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 6 - Fetch consume API">
+          <a href="../12_Filtros/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 012 - Filtros">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Próximo
               </span>
               <div class="md-ellipsis">
-                6 - Fetch consume API
+                012 - Filtros
               </div>
             </div>
             <div class="md-footer__button md-icon">

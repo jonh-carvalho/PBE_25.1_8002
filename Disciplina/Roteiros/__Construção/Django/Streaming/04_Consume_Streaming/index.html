@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../08_CorsOrigin/">
+        <link rel="prev" href="../03_Rest_Streaming/">
       
       
-        <link rel="next" href="../10_Autentica%C3%A7%C3%A3o/">
+        <link rel="next" href="../05_Playlist/">
       
       
       <link rel="icon" href="../../../../../../images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>9 - Filtros - Projeto Back-End</title>
+        <title>04 - Consume API - Projeto Back-End</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#9-filtros" class="md-skip">
+        <a href="#04-consume-api" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              9 - Filtros
+              04 - Consume API
             
           </span>
         </div>
@@ -1014,11 +1014,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_Projeto_Streaming/" class="md-nav__link">
+      <a href="../00_Projeto_Streaming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    01 - Projeto Streaming
+    00 - Projeto Streaming
   </span>
   
 
@@ -1039,7 +1039,7 @@
         
   
   <span class="md-ellipsis">
-    02 - Regras de Negócio
+    01 - Regras de Negócio
   </span>
   
 
@@ -1095,111 +1095,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../04_Shell_Streaming/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    04 - Django Shell
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../05_Consume_Streaming/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    5 - Consume API
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../06_Consume_Streaming_Web/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    6 - Fetch consume API
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../07_Admin_Streaming/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    7 - Django Admin
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../08_CorsOrigin/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Cross-Origin
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -1216,7 +1111,7 @@
           
   
   <span class="md-ellipsis">
-    9 - Filtros
+    04 - Consume API
   </span>
   
 
@@ -1227,7 +1122,7 @@
         
   
   <span class="md-ellipsis">
-    9 - Filtros
+    04 - Consume API
   </span>
   
 
@@ -1255,31 +1150,50 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exemplo-de-view-com-filtro-manual" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exemplo de View com Filtro Manual
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Exemplo de View com Filtro Manual">
+    <nav class="md-nav" aria-label="Introdução">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#explicacao" class="md-nav__link">
+  <a href="#1-urls-principais-da-api" class="md-nav__link">
     <span class="md-ellipsis">
-      Explicação
+      1. URLs Principais da API
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#testando-o-filtro" class="md-nav__link">
+  <a href="#2-acessando-via-navegador" class="md-nav__link">
     <span class="md-ellipsis">
-      Testando o Filtro
+      2. Acessando via Navegador
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-autenticacao-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Autenticação de Usuário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Autenticação de Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-autenticacao-de-sessao" class="md-nav__link">
+    <span class="md-ellipsis">
+      a) Autenticação de Sessão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-autenticacao-basica-basic-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      b) Autenticação Básica (Basic Auth)
     </span>
   </a>
   
@@ -1289,39 +1203,71 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#filtros-para-os-campos-title-e-description" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#4-exemplos-de-requisicoes" class="md-nav__link">
     <span class="md-ellipsis">
-      Filtros para os Campos Title e Description
+      4. Exemplos de Requisições
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Filtros para os Campos Title e Description">
+    <nav class="md-nav" aria-label="4. Exemplos de Requisições">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#atualizando-a-view-para-filtrar-title-e-description" class="md-nav__link">
+  <a href="#a-get-listar-todos-os-conteudos" class="md-nav__link">
     <span class="md-ellipsis">
-      Atualizando a View para Filtrar title e description
+      a) GET - Listar todos os conteúdos
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#explicacoes" class="md-nav__link">
+  <a href="#b-post-criar-um-novo-conteudo" class="md-nav__link">
     <span class="md-ellipsis">
-      Explicações
+      b) POST - Criar um novo conteúdo
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#teste-o-filtro" class="md-nav__link">
+  <a href="#c-put-atualizar-um-conteudo" class="md-nav__link">
     <span class="md-ellipsis">
-      Teste o Filtro
+      c) PUT - Atualizar um conteúdo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-delete-remover-um-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      d) DELETE - Remover um conteúdo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-filtros-e-busca" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Filtros e Busca
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resumo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resumo
     </span>
   </a>
   
@@ -1348,11 +1294,158 @@
   
   
     <li class="md-nav__item">
-      <a href="../10_Autentica%C3%A7%C3%A3o/" class="md-nav__link">
+      <a href="../05_Playlist/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    10 Autenticação
+    05 - Playlist -Relacionamento NxN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_Shell_Streaming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    06 - Django Shell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_Carga%20de%20Dados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    07 - Cargas de Dados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_CorsOrigin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    08 - Cross-Origin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_Consume_Streaming_Web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    09 - Fetch consume API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_Admin_Streaming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10 - Django Admin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_Autentica%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    011 - Autenticação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_Filtros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    012 - Filtros
   </span>
   
 
@@ -2498,31 +2591,50 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exemplo-de-view-com-filtro-manual" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exemplo de View com Filtro Manual
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Exemplo de View com Filtro Manual">
+    <nav class="md-nav" aria-label="Introdução">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#explicacao" class="md-nav__link">
+  <a href="#1-urls-principais-da-api" class="md-nav__link">
     <span class="md-ellipsis">
-      Explicação
+      1. URLs Principais da API
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#testando-o-filtro" class="md-nav__link">
+  <a href="#2-acessando-via-navegador" class="md-nav__link">
     <span class="md-ellipsis">
-      Testando o Filtro
+      2. Acessando via Navegador
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-autenticacao-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Autenticação de Usuário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Autenticação de Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-autenticacao-de-sessao" class="md-nav__link">
+    <span class="md-ellipsis">
+      a) Autenticação de Sessão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-autenticacao-basica-basic-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      b) Autenticação Básica (Basic Auth)
     </span>
   </a>
   
@@ -2532,39 +2644,71 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#filtros-para-os-campos-title-e-description" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#4-exemplos-de-requisicoes" class="md-nav__link">
     <span class="md-ellipsis">
-      Filtros para os Campos Title e Description
+      4. Exemplos de Requisições
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Filtros para os Campos Title e Description">
+    <nav class="md-nav" aria-label="4. Exemplos de Requisições">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#atualizando-a-view-para-filtrar-title-e-description" class="md-nav__link">
+  <a href="#a-get-listar-todos-os-conteudos" class="md-nav__link">
     <span class="md-ellipsis">
-      Atualizando a View para Filtrar title e description
+      a) GET - Listar todos os conteúdos
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#explicacoes" class="md-nav__link">
+  <a href="#b-post-criar-um-novo-conteudo" class="md-nav__link">
     <span class="md-ellipsis">
-      Explicações
+      b) POST - Criar um novo conteúdo
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#teste-o-filtro" class="md-nav__link">
+  <a href="#c-put-atualizar-um-conteudo" class="md-nav__link">
     <span class="md-ellipsis">
-      Teste o Filtro
+      c) PUT - Atualizar um conteúdo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-delete-remover-um-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      d) DELETE - Remover um conteúdo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-filtros-e-busca" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Filtros e Busca
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resumo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resumo
     </span>
   </a>
   
@@ -2593,106 +2737,129 @@
   
 
 
-<h1 id="9-filtros">9 - <strong>Filtros</strong></h1>
+<h1 id="04-consume-api">04 - <strong>Consume API</strong></h1>
 <h2 id="introducao">Introdução</h2>
-<p>Para implementar o filtro você pode definir manualmente o filtro na sua view, utilizando parâmetros de query (<code>query params</code>) para filtrar o <code>content_type</code> diretamente na sua consulta.</p>
-<h2 id="exemplo-de-view-com-filtro-manual">Exemplo de View com Filtro Manual</h2>
-<p>Aqui está uma implementação usando uma <code>ListAPIView</code>, onde o filtro é feito verificando o valor do parâmetro <code>content_type</code> na requisição.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># app/views.py</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">generics</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="kn">from</span> <span class="nn">rest_framework.response</span> <span class="kn">import</span> <span class="n">Response</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">Content</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="kn">from</span> <span class="nn">.serializers</span> <span class="kn">import</span> <span class="n">ContentSerializer</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="k">class</span> <span class="nc">ContentListView</span><span class="p">(</span><span class="n">generics</span><span class="o">.</span><span class="n">ListAPIView</span><span class="p">):</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ContentSerializer</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    <span class="k">def</span> <span class="nf">get_queryset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>        <span class="n">queryset</span> <span class="o">=</span> <span class="n">Content</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>        <span class="n">content_type</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">query_params</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;content_type&#39;</span><span class="p">)</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>        <span class="k">if</span> <span class="n">content_type</span> <span class="ow">in</span> <span class="p">[</span><span class="n">choice</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">choice</span> <span class="ow">in</span> <span class="n">Content</span><span class="o">.</span><span class="n">CONTENT_TYPE_CHOICES</span><span class="p">]:</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>            <span class="n">queryset</span> <span class="o">=</span> <span class="n">queryset</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">content_type</span><span class="o">=</span><span class="n">content_type</span><span class="p">)</span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>        <span class="k">return</span> <span class="n">queryset</span>
+<ul>
+<li>Para acessar a API criada no Django REST framework, siga os passos abaixo. A API está acessível através de rotas prefixadas por <code>api/</code> conforme configurado no arquivo <code>urls.py</code>. Você pode testar a API usando ferramentas como <strong>Postman</strong>, <strong>Insomnia</strong>, ou até mesmo <strong>cURL</strong> no terminal.</li>
+</ul>
+<h3 id="1-urls-principais-da-api">1. <strong>URLs Principais da API</strong></h3>
+<p>Com base na configuração do roteamento, as URLs disponíveis são:</p>
+<ul>
+<li><strong>Listar todos os conteúdos</strong>: <code>GET /api/contents/</code></li>
+<li><strong>Criar um novo conteúdo</strong>: <code>POST /api/contents/</code> (Requer autenticação)</li>
+<li><strong>Ver detalhes de um conteúdo específico</strong>: <code>GET /api/contents/&lt;id&gt;/</code></li>
+<li><strong>Atualizar um conteúdo</strong>: <code>PUT /api/contents/&lt;id&gt;/</code> (Requer autenticação)</li>
+<li><strong>Deletar um conteúdo</strong>: <code>DELETE /api/contents/&lt;id&gt;/</code> (Requer autenticação)</li>
+</ul>
+<h3 id="2-acessando-via-navegador">2. <strong>Acessando via Navegador</strong></h3>
+<p>Se você estiver rodando o servidor de desenvolvimento do Django localmente, use o comando:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>python<span class="w"> </span>manage.py<span class="w"> </span>runserver
 </span></code></pre></div>
-<h3 id="explicacao">Explicação</h3>
+<p>Agora, você pode acessar a API via navegador (ou Postman) em:</p>
+<ul>
+<li><strong><a href="http://127.0.0.1:8000/api/contents/">Listar</a></strong> — para listar todos os conteúdos.</li>
+</ul>
+<p>O Django REST framework oferece uma interface de navegação de API embutida. Se você acessar a API pelo navegador, verá uma interface amigável onde pode visualizar, criar, editar e excluir registros.</p>
+<h3 id="3-autenticacao-de-usuario">3. <strong>Autenticação de Usuário</strong></h3>
+<p>Alguns endpoints (como criar, atualizar e deletar conteúdo) requerem que o usuário esteja autenticado. Existem várias maneiras de se autenticar:</p>
+<h4 id="a-autenticacao-de-sessao">a) <strong>Autenticação de Sessão</strong></h4>
+<p>Se você estiver logado como usuário no Django Admin, pode testar a API no mesmo navegador porque as credenciais de sessão serão reutilizadas.</p>
 <ol>
-<li><strong>Recuperação do Parâmetro de Query</strong>: A função <code>get_queryset()</code> verifica se o parâmetro <code>content_type</code> foi enviado na requisição (<code>self.request.query_params.get('content_type')</code>).</li>
-<li><strong>Validação do Parâmetro</strong>: A verificação <code>if content_type in [choice[0] for choice in Content.CONTENT_TYPE_CHOICES]</code> assegura que o valor de <code>content_type</code> corresponde a uma das escolhas válidas definidas no modelo <code>Content</code>.</li>
-<li><strong>Aplicação do Filtro</strong>: Se o parâmetro <code>content_type</code> for válido (<code>audio</code> ou <code>video</code>), ele será aplicado ao queryset usando <code>filter(content_type=content_type)</code>.</li>
+<li>Acesse o Django Admin em <code>http://127.0.0.1:8000/admin/</code>.</li>
+<li>Faça login com um superusuário.</li>
+<li>Agora, vá para <code>http://127.0.0.1:8000/api/contents/</code> e você poderá fazer operações autenticadas diretamente no navegador.</li>
 </ol>
-<h3 id="testando-o-filtro">Testando o Filtro</h3>
-<p>Você pode acessar os endpoints da seguinte forma:</p>
-<ul>
-<li>Para filtrar apenas conteúdos de áudio:</li>
-</ul>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>http://localhost:8000/api/contents/?content_type<span class="o">=</span>audio
-</span></code></pre></div>
-<ul>
-<li>Para filtrar apenas conteúdos de vídeo:</li>
-</ul>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>http://localhost:8000/api/contents/?content_type<span class="o">=</span>video
-</span></code></pre></div>
-<h2 id="filtros-para-os-campos-title-e-description">Filtros para os Campos Title e Description</h2>
-<p>Para adicionar filtros pelos campos <code>title</code> e <code>description</code>, você pode usar o mesmo método de query params dentro da sua view, permitindo que os usuários filtrem os conteúdos com base em partes do título ou descrição. No Django, você pode usar consultas <code>__icontains</code> para fazer uma busca parcial e insensível a maiúsculas e minúsculas.</p>
-<h3 id="atualizando-a-view-para-filtrar-title-e-description">Atualizando a View para Filtrar <code>title</code> e <code>description</code></h3>
-<p>Vamos modificar a função <code>get_queryset</code> para incluir os parâmetros <code>title</code> e <code>description</code>:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># app/views.py</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">generics</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">Content</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="kn">from</span> <span class="nn">.serializers</span> <span class="kn">import</span> <span class="n">ContentSerializer</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="k">class</span> <span class="nc">ContentListView</span><span class="p">(</span><span class="n">generics</span><span class="o">.</span><span class="n">ListAPIView</span><span class="p">):</span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ContentSerializer</span>
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Content</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>    <span class="k">def</span> <span class="nf">get_queryset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>        <span class="n">queryset</span> <span class="o">=</span> <span class="n">Content</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
-</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>
-</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>        <span class="c1"># Filtro por tipo de conteúdo (audio/video)</span>
-</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>        <span class="n">content_type</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">query_params</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;content_type&#39;</span><span class="p">)</span>
-</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>        <span class="k">if</span> <span class="n">content_type</span> <span class="ow">in</span> <span class="p">[</span><span class="n">choice</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">choice</span> <span class="ow">in</span> <span class="n">Content</span><span class="o">.</span><span class="n">CONTENT_TYPE_CHOICES</span><span class="p">]:</span>
-</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>            <span class="n">queryset</span> <span class="o">=</span> <span class="n">queryset</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">content_type</span><span class="o">=</span><span class="n">content_type</span><span class="p">)</span>
-</span><span id="__span-3-18"><a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>
-</span><span id="__span-3-19"><a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>        <span class="c1"># Filtro por título (parcial e insensível a maiúsculas/minúsculas)</span>
-</span><span id="__span-3-20"><a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>        <span class="n">title</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">query_params</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span>
-</span><span id="__span-3-21"><a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>        <span class="k">if</span> <span class="n">title</span><span class="p">:</span>
-</span><span id="__span-3-22"><a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>            <span class="n">queryset</span> <span class="o">=</span> <span class="n">queryset</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">title__icontains</span><span class="o">=</span><span class="n">title</span><span class="p">)</span>
-</span><span id="__span-3-23"><a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>
-</span><span id="__span-3-24"><a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a>        <span class="c1"># Filtro por descrição (parcial e insensível a maiúsculas/minúsculas)</span>
-</span><span id="__span-3-25"><a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a>        <span class="n">description</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">query_params</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">)</span>
-</span><span id="__span-3-26"><a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a>        <span class="k">if</span> <span class="n">description</span><span class="p">:</span>
-</span><span id="__span-3-27"><a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a>            <span class="n">queryset</span> <span class="o">=</span> <span class="n">queryset</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">description__icontains</span><span class="o">=</span><span class="n">description</span><span class="p">)</span>
-</span><span id="__span-3-28"><a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>
-</span><span id="__span-3-29"><a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a>        <span class="k">return</span> <span class="n">queryset</span>
-</span></code></pre></div>
-<h3 id="explicacoes">Explicações</h3>
+<h4 id="b-autenticacao-basica-basic-auth">b) <strong>Autenticação Básica (Basic Auth)</strong></h4>
+<p>Para testar com ferramentas como <strong>Postman</strong> ou <strong>cURL</strong>, você pode usar autenticação básica.</p>
+<p><strong>No Postman</strong>:</p>
 <ol>
-<li><strong>Filtro de <code>content_type</code></strong>: O mesmo que antes, filtrando apenas se <code>content_type</code> está presente nos valores válidos.</li>
-<li><strong>Filtro de <code>title</code></strong>: Se o parâmetro <code>title</code> é passado, a consulta <code>filter(title__icontains=title)</code> procura por conteúdos que contenham o valor de <code>title</code> em qualquer parte do título, sem diferenciar maiúsculas de minúsculas.</li>
-<li><strong>Filtro de <code>description</code></strong>: O mesmo princípio é aplicado ao parâmetro <code>description</code> com <code>filter(description__icontains=description)</code>.</li>
+<li>No cabeçalho da requisição, vá até a aba "Authorization".</li>
+<li>Selecione o tipo "Basic Auth".</li>
+<li>Insira seu <strong>username</strong> e <strong>password</strong>.</li>
 </ol>
-<h3 id="teste-o-filtro">Teste o Filtro</h3>
-<p>Agora você pode usar os parâmetros <code>content_type</code>, <code>title</code> e <code>description</code> para filtrar os conteúdos:</p>
-<ul>
-<li>Para buscar conteúdos de áudio com "Music" no título:</li>
-</ul>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>http://localhost:8000/api/contents/?content_type<span class="o">=</span>audio<span class="p">&amp;</span><span class="nv">title</span><span class="o">=</span>Music
+<p><strong>Com cURL</strong>:
+Você pode usar o seguinte comando no terminal para criar um novo conteúdo (por exemplo):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>http://127.0.0.1:8000/api/contents/<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span>-u<span class="w"> </span>&lt;username&gt;:&lt;password&gt;<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="s1">        &quot;title&quot;: &quot;Sample Video&quot;,</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="s1">        &quot;description&quot;: &quot;A sample video description&quot;,</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="s1">        &quot;file_url&quot;: &quot;http://example.com/sample.mp4&quot;,</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="s1">        &quot;thumbnail_url&quot;: &quot;http://example.com/thumb.jpg&quot;,</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="s1">        &quot;content_type&quot;: &quot;video&quot;,</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="s1">        &quot;is_public&quot;: true</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="s1">      }&#39;</span>
 </span></code></pre></div>
-<ul>
-<li>Para buscar conteúdos com "Tutorial" na descrição:</li>
-</ul>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>http://localhost:8000/api/contents/?description<span class="o">=</span>Tutorial
+<h3 id="4-exemplos-de-requisicoes">4. <strong>Exemplos de Requisições</strong></h3>
+<h4 id="a-get-listar-todos-os-conteudos">a) <strong>GET - Listar todos os conteúdos</strong></h4>
+<p>Você pode listar todos os conteúdos disponíveis com a seguinte requisição:</p>
+<p><strong>Com cURL</strong>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>GET<span class="w"> </span>http://127.0.0.1:8000/api/contents/
 </span></code></pre></div>
-<ul>
-<li>Para combinar filtros (exemplo, vídeos com "Adventure" no título):</li>
-</ul>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>http://localhost:8000/api/contents/?content_type<span class="o">=</span>video<span class="p">&amp;</span><span class="nv">title</span><span class="o">=</span>Adventure
+<h4 id="b-post-criar-um-novo-conteudo">b) <strong>POST - Criar um novo conteúdo</strong></h4>
+<p>Para criar um novo conteúdo, você precisa estar autenticado e fornecer os dados adequados:</p>
+<p><strong>No Postman</strong>:</p>
+<ol>
+<li>Defina o método como <code>POST</code>.</li>
+<li>No campo URL, insira <code>http://127.0.0.1:8000/api/contents/</code>.</li>
+<li>Vá até a aba "Body" e selecione <code>raw</code> com o tipo <code>JSON</code>, e insira algo como:</li>
+</ol>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My Video&quot;</span><span class="p">,</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A video description&quot;</span><span class="p">,</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="nt">&quot;file_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://example.com/video.mp4&quot;</span><span class="p">,</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="nt">&quot;thumbnail_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://example.com/thumbnail.jpg&quot;</span><span class="p">,</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="nt">&quot;content_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;video&quot;</span><span class="p">,</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="nt">&quot;is_public&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="p">}</span>
 </span></code></pre></div>
-<p>Esse código permite aplicar os filtros <code>title</code> e <code>description</code> de forma simples e diretamente na view.</p>
+<ol>
+<li>Envie a requisição.</li>
+</ol>
+<h4 id="c-put-atualizar-um-conteudo">c) <strong>PUT - Atualizar um conteúdo</strong></h4>
+<p>Atualizar um conteúdo requer que você esteja autenticado e seja o criador do conteúdo.</p>
+<p><strong>Com cURL</strong>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>PUT<span class="w"> </span>http://127.0.0.1:8000/api/contents/&lt;id&gt;/<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span>-u<span class="w"> </span>&lt;username&gt;:&lt;password&gt;<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="s1">        &quot;title&quot;: &quot;Updated Video Title&quot;,</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="s1">        &quot;description&quot;: &quot;Updated description&quot;</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="s1">      }&#39;</span>
+</span></code></pre></div>
+<h4 id="d-delete-remover-um-conteudo">d) <strong>DELETE - Remover um conteúdo</strong></h4>
+<p>Para deletar um conteúdo (somente se você for o criador ou administrador):</p>
+<p><strong>Com cURL</strong>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span>http://127.0.0.1:8000/api/contents/&lt;id&gt;/<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span>-u<span class="w"> </span>&lt;username&gt;:&lt;password&gt;
+</span></code></pre></div>
+<h3 id="5-filtros-e-busca">5. <strong>Filtros e Busca</strong></h3>
+<p>Você pode adicionar filtros de busca com base nos campos do modelo <code>Content</code> (como <code>title</code>, <code>content_type</code>, etc.), integrando a funcionalidade de filtros no Django REST framework usando <code>DjangoFilterBackend</code>.</p>
+<p>Exemplo de adição de filtro para busca por título ou tipo de conteúdo:</p>
+<p><strong>No <code>views.py</code></strong>:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">viewsets</span><span class="p">,</span> <span class="n">filters</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="kn">from</span> <span class="nn">django_filters.rest_framework</span> <span class="kn">import</span> <span class="n">DjangoFilterBackend</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="k">class</span> <span class="nc">ContentViewSet</span><span class="p">(</span><span class="n">viewsets</span><span class="o">.</span><span class="n">ModelViewSet</span><span class="p">):</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Content</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ContentSerializer</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    <span class="n">filter_backends</span> <span class="o">=</span> <span class="p">[</span><span class="n">DjangoFilterBackend</span><span class="p">,</span> <span class="n">filters</span><span class="o">.</span><span class="n">SearchFilter</span><span class="p">]</span>
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>    <span class="n">search_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;content_type&#39;</span><span class="p">]</span>
+</span></code></pre></div>
+<p>Agora você pode buscar por título ou tipo de conteúdo:</p>
+<ul>
+<li><code>GET /api/contents/?search=My Video</code></li>
+<li><code>GET /api/contents/?search=audio</code></li>
+</ul>
+<h3 id="resumo">Resumo</h3>
+<ol>
+<li>Acesse a API via <code>http://127.0.0.1:8000/api/contents/</code>.</li>
+<li>Utilize autenticação para operações que requerem login (POST, PUT, DELETE).</li>
+<li>Use ferramentas como Postman ou cURL para testar os endpoints.</li>
+<li>Adicione filtros ou funcionalidades adicionais conforme necessário.</li>
+</ol>
+<p>Assim, a API está configurada e pronta para ser consumida por frontends, aplicativos móveis ou outras aplicações REST.</p>
 
 
 
@@ -2728,7 +2895,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
         
           
-          <a href="../08_CorsOrigin/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Cross-Origin">
+          <a href="../03_Rest_Streaming/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 03 - Rest Streaming">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2738,20 +2905,20 @@
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Cross-Origin
+                03 - Rest Streaming
               </div>
             </div>
           </a>
         
         
           
-          <a href="../10_Autentica%C3%A7%C3%A3o/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 10 Autenticação">
+          <a href="../05_Playlist/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 05 - Playlist -Relacionamento NxN">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Próximo
               </span>
               <div class="md-ellipsis">
-                10 Autenticação
+                05 - Playlist -Relacionamento NxN
               </div>
             </div>
             <div class="md-footer__button md-icon">

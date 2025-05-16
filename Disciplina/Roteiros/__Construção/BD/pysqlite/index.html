@@ -1081,11 +1081,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Django/Streaming/01_Projeto_Streaming/" class="md-nav__link">
+      <a href="../../Django/Streaming/00_Projeto_Streaming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    01 - Projeto Streaming
+    00 - Projeto Streaming
   </span>
   
 
@@ -1106,7 +1106,7 @@
         
   
   <span class="md-ellipsis">
-    02 - Regras de Negócio
+    01 - Regras de Negócio
   </span>
   
 
@@ -1165,11 +1165,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Django/Streaming/04_Shell_Streaming/" class="md-nav__link">
+      <a href="../../Django/Streaming/04_Consume_Streaming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    04 - Django Shell
+    04 - Consume API
   </span>
   
 
@@ -1186,11 +1186,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Django/Streaming/05_Consume_Streaming/" class="md-nav__link">
+      <a href="../../Django/Streaming/05_Playlist/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    5 - Consume API
+    05 - Playlist -Relacionamento NxN
   </span>
   
 
@@ -1207,11 +1207,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Django/Streaming/06_Consume_Streaming_Web/" class="md-nav__link">
+      <a href="../../Django/Streaming/06_Shell_Streaming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    6 - Fetch consume API
+    06 - Django Shell
   </span>
   
 
@@ -1228,11 +1228,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Django/Streaming/07_Admin_Streaming/" class="md-nav__link">
+      <a href="../../Django/Streaming/07_Carga%20de%20Dados/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    7 - Django Admin
+    07 - Cargas de Dados
   </span>
   
 
@@ -1253,7 +1253,7 @@
         
   
   <span class="md-ellipsis">
-    Cross-Origin
+    08 - Cross-Origin
   </span>
   
 
@@ -1270,11 +1270,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Django/Streaming/09_Filtros/" class="md-nav__link">
+      <a href="../../Django/Streaming/09_Consume_Streaming_Web/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    9 - Filtros
+    09 - Fetch consume API
   </span>
   
 
@@ -1291,11 +1291,53 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Django/Streaming/10_Autentica%C3%A7%C3%A3o/" class="md-nav__link">
+      <a href="../../Django/Streaming/10_Admin_Streaming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    10 Autenticação
+    10 - Django Admin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Django/Streaming/11_Autentica%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    011 - Autenticação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Django/Streaming/12_Filtros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    012 - Filtros
   </span>
   
 
@@ -2972,7 +3014,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-1">
@@ -3009,7 +3051,7 @@ conn.close()</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-2">
@@ -3085,30 +3127,9 @@ conn.close()</div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">OperationalError</span>                          Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[2], line 10</span>
-<span class="ansi-green-fg">      7</span> cursor <span style="color: rgb(98,98,98)">=</span> conn<span style="color: rgb(98,98,98)">.</span>cursor()
-<span class="ansi-green-fg">      9</span> <span style="color: rgb(95,135,135)"># criando a tabela (schema)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 10</span> <span class="ansi-yellow-bg">cursor</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">execute</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">"""</span>
-<span class="ansi-green-fg">     11</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">CREATE TABLE clientesss (</span>
-<span class="ansi-green-fg">     12</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">        id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,</span>
-<span class="ansi-green-fg">     13</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">        nome TEXT NOT NULL,</span>
-<span class="ansi-green-fg">     14</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">        idade INTEGER,</span>
-<span class="ansi-green-fg">     15</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">        cpf     VARCHAR(11) NOT NULL,</span>
-<span class="ansi-green-fg">     16</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">        email TEXT NOT NULL,</span>
-<span class="ansi-green-fg">     17</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">        fone TEXT,</span>
-<span class="ansi-green-fg">     18</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">        cidade TEXT,</span>
-<span class="ansi-green-fg">     19</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">        uf VARCHAR(2) NOT NULL,</span>
-<span class="ansi-green-fg">     20</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">        criado_em DATE NOT NULL</span>
-<span class="ansi-green-fg">     21</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">);</span>
-<span class="ansi-green-fg">     22</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">"""</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">     24</span> <span style="color: rgb(0,135,0)">print</span>(<span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">Tabela criada com sucesso.</span><span style="color: rgb(175,0,0)">'</span>)
-<span class="ansi-green-fg">     25</span> <span style="color: rgb(95,135,135)"># desconectando...</span>
-
-<span class="ansi-red-intense-fg ansi-bold">OperationalError</span>: table clientesss already exists</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Tabela criada com sucesso.
+</pre>
 </div>
 </div>
 </div>
@@ -3120,7 +3141,7 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[2], line 10</span>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-3">
@@ -3224,7 +3245,7 @@ conn.close()</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-4">
@@ -3279,13 +3300,10 @@ conn.close()</div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>(1, 'Regis', 35, '00000000000', 'regis@email.com', '11-1000-2014', 'Sao Paulo', 'SP', '2014-06-11', None)
-(2, 'Aloisio', 87, '11111111111', 'aloisio@email.com', '98765-4322', 'Porto Alegre', 'RS', '2014-06-09', None)
-(4, 'Matheus', 19, '33333333333', 'matheus@email.com', '11-98765-4324', 'Campinas', 'SP', '2014-06-08', None)
-(5, 'Regis', 35, '00000000000', 'regis@email.com', '11-98765-4321', 'Sao Paulo', 'SP', '2014-06-08', None)
-(6, 'Aloisio', 87, '11111111111', 'aloisio@email.com', '98765-4322', 'Porto Alegre', 'RS', '2014-06-09', None)
-(7, 'Bruna', 21, '22222222222', 'bruna@email.com', '21-98765-4323', 'Rio de Janeiro', 'RJ', '2014-06-09', None)
-(8, 'Matheus', 19, '33333333333', 'matheus@email.com', '11-98765-4324', 'Campinas', 'SP', '2014-06-08', None)
+<pre>(1, 'Regis', 35, '00000000000', 'regis@email.com', '11-98765-4321', 'Sao Paulo', 'SP', '2014-06-08')
+(2, 'Aloisio', 87, '11111111111', 'aloisio@email.com', '98765-4322', 'Porto Alegre', 'RS', '2014-06-09')
+(3, 'Bruna', 21, '22222222222', 'bruna@email.com', '21-98765-4323', 'Rio de Janeiro', 'RJ', '2014-06-09')
+(4, 'Matheus', 19, '33333333333', 'matheus@email.com', '11-98765-4324', 'Campinas', 'SP', '2014-06-08')
 </pre>
 </div>
 </div>
@@ -3298,7 +3316,7 @@ conn.close()</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-5">
@@ -3380,7 +3398,7 @@ conn.close()</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-6">
@@ -3456,7 +3474,7 @@ conn.close()</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-7">
@@ -3514,21 +3532,9 @@ conn.close()</div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">OperationalError</span>                          Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[7], line 8</span>
-<span class="ansi-green-fg">      5</span> cursor <span style="color: rgb(98,98,98)">=</span> conn<span style="color: rgb(98,98,98)">.</span>cursor()
-<span class="ansi-green-fg">      7</span> <span style="color: rgb(95,135,135)"># adicionando uma nova coluna na tabela clientes</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 8</span> <span class="ansi-yellow-bg">cursor</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">execute</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">"""</span>
-<span class="ansi-green-fg">      9</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">ALTER TABLE clientesss</span>
-<span class="ansi-green-fg">     10</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">ADD COLUMN bloqueado BOOLEAN;</span>
-<span class="ansi-green-fg">     11</span> <span class="ansi-yellow-bg" style="color: rgb(175,0,0)">"""</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">     13</span> conn<span style="color: rgb(98,98,98)">.</span>commit()
-<span class="ansi-green-fg">     15</span> <span style="color: rgb(0,135,0)">print</span>(<span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">Novo campo adicionado com sucesso.</span><span style="color: rgb(175,0,0)">'</span>)
-
-<span class="ansi-red-intense-fg ansi-bold">OperationalError</span>: duplicate column name: bloqueado</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Novo campo adicionado com sucesso.
+</pre>
 </div>
 </div>
 </div>
@@ -3540,7 +3546,7 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[7], line 8</span>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-8">
