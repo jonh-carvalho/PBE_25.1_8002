@@ -11,7 +11,7 @@ Abaixo está o código para definir o modelo `Playlist` no Django, assumindo que
 ```python
 from django.db import models
 from django.contrib.auth.models import User
-from content.models import Content  # Assumindo que o modelo Content está no app 'content'
+from content_app.models import Content  # Assumindo que o modelo Content está no app 'content_app'
 
 class Playlist(models.Model):
     title = models.CharField(max_length=255)  # Título da playlist
