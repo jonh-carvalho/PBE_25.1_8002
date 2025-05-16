@@ -38,7 +38,117 @@ class Playlist(models.Model):
 4. **`contents`**: Relacionamento `ManyToMany` com `Content`, permitindo que vários conteúdos sejam adicionados à playlist.
 5. **`created_at`** e **`updated_at`**: Campos de data para registrar a criação e a última atualização da playlist.
 
-### Exemplo de Uso no Django Shell
+---
+
+Para tornar o modelo `Playlist` acessível via API REST no Django, vamos definir o **serializador**, as **views** e as **URLs** usando o Django REST Framework. Dessa forma, será possível criar, listar, atualizar e deletar playlists, além de adicionar ou remover conteúdos de uma playlist.
+
+### 1. **Definindo o Serializador**
+
+O serializador converte as instâncias do modelo `Playlist` para JSON e valida os dados recebidos.
+
+Crie um arquivo `serializers.py` dentro do seu app, se ele ainda não existir.
+
+#### `serializers.py`
+
+```python
+from rest_framework import serializers
+from .models import Playlist
+from content.models import Content
+
+class ContentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Content
+        fields = ['id', 'title', 'file_url', 'thumbnail_url', 'content_type']
+
+class PlaylistSerializer(serializers.ModelSerializer):
+    contents = ContentSerializer(many=True, read_only=True)
+    content_ids = serializers.PrimaryKeyRelatedField(
+        queryset=Content.objects.all(), write_only=True, many=True, source='contents'
+    )
+
+    class Meta:
+        model = Playlist
+        fields = ['id', 'title', 'description', 'user', 'contents', 'content_ids', 'created_at']
+        read_only_fields = ['user', 'created_at']
+
+    def create(self, validated_data):
+        content_data = validated_data.pop('contents', [])
+        playlist = super().create(validated_data)
+        playlist.contents.set(content_data)
+        return playlist
+
+    def update(self, instance, validated_data):
+        content_data = validated_data.pop('contents', None)
+        playlist = super().update(instance, validated_data)
+        if content_data is not None:
+            playlist.contents.set(content_data)
+        return playlist
+```
+
+* **`contents`**: Serializa os conteúdos da playlist de forma detalhada.
+* **`content_ids`**: Permite adicionar conteúdos à playlist usando IDs.
+* **`user`**: É preenchido automaticamente na view com o usuário autenticado.
+
+### 2. **Definindo as Views**
+
+Vamos usar o **Django REST Framework ViewSets** para definir as operações de CRUD na `Playlist`.
+
+Crie ou edite o arquivo `views.py` no seu app.
+
+#### `views.py`
+
+```python
+from rest_framework import viewsets, permissions
+from .models import Playlist
+from .serializers import PlaylistSerializer
+
+class PlaylistViewSet(viewsets.ModelViewSet):
+    queryset = Playlist.objects.all()
+    serializer_class = PlaylistSerializer
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
+
+    def get_queryset(self):
+        # Permite que o usuário veja apenas suas próprias playlists
+        return self.queryset.filter(user=self.request.user)
+```
+
+* **`perform_create`**: Define o usuário autenticado como proprietário da playlist.
+* **`get_queryset`**: Filtra as playlists para mostrar apenas as pertencentes ao usuário autenticado.
+
+### 3. **Definindo as URLs**
+
+Crie ou edite o arquivo `urls.py` no seu app e configure as URLs para o endpoint `Playlist`.
+
+#### `urls.py`
+
+```python
+#content_app/urls.py
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .views import PlaylistViewSet
+
+router = DefaultRouter()
+router.register(r'playlists', PlaylistViewSet, basename='playlist')
+
+urlpatterns = [
+    path('', include(router.urls)),
+]
+```
+
+### 4. **Testando a API**
+
+Com o Django REST Framework, você pode acessar e interagir com a API nos seguintes endpoints:
+
+* `GET /api/playlists/` - Listar todas as playlists do usuário autenticado.
+* `POST /api/playlists/` - Criar uma nova playlist (enviar `title`, `description` e `content_ids`).
+* `GET /api/playlists/<id>/` - Obter detalhes de uma playlist específica.
+* `PUT /api/playlists/<id>/` - Atualizar uma playlist existente (enviar `title`, `description`, e `content_ids`).
+* `DELETE /api/playlists/<id>/` - Excluir uma playlist específica.
+
+
+### 6. **Django Shell**
 
 Com esse modelo, é possível realizar operações no Django Shell para criar playlists, adicionar conteúdos e verificar quais playlists pertencem a um usuário ou contêm um conteúdo específico.
 
