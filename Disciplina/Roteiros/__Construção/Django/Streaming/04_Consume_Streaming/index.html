@@ -12,7 +12,7 @@
         <link rel="prev" href="../03_Rest_Streaming/">
       
       
-        <link rel="next" href="../05_Playlist/">
+        <link rel="next" href="../05_Playlist%20NxN/">
       
       
       <link rel="icon" href="../../../../../../images/favicon.png">
@@ -1172,46 +1172,13 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-autenticacao-de-usuario" class="md-nav__link">
+  <a href="#3-exemplos-de-requisicoes" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Autenticação de Usuário
+      3. Exemplos de Requisições
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. Autenticação de Usuário">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-autenticacao-de-sessao" class="md-nav__link">
-    <span class="md-ellipsis">
-      a) Autenticação de Sessão
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#b-autenticacao-basica-basic-auth" class="md-nav__link">
-    <span class="md-ellipsis">
-      b) Autenticação Básica (Basic Auth)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-exemplos-de-requisicoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Exemplos de Requisições
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="4. Exemplos de Requisições">
+    <nav class="md-nav" aria-label="3. Exemplos de Requisições">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1256,15 +1223,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-filtros-e-busca" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Filtros e Busca
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#resumo" class="md-nav__link">
     <span class="md-ellipsis">
       Resumo
@@ -1294,7 +1252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../05_Playlist/" class="md-nav__link">
+      <a href="../05_Playlist%20NxN/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1320,6 +1278,27 @@
   
   <span class="md-ellipsis">
     06 - Django Shell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_Swagger/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    06 - Swagger
   </span>
   
 
@@ -2613,46 +2592,13 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-autenticacao-de-usuario" class="md-nav__link">
+  <a href="#3-exemplos-de-requisicoes" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Autenticação de Usuário
+      3. Exemplos de Requisições
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. Autenticação de Usuário">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-autenticacao-de-sessao" class="md-nav__link">
-    <span class="md-ellipsis">
-      a) Autenticação de Sessão
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#b-autenticacao-basica-basic-auth" class="md-nav__link">
-    <span class="md-ellipsis">
-      b) Autenticação Básica (Basic Auth)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-exemplos-de-requisicoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Exemplos de Requisições
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="4. Exemplos de Requisições">
+    <nav class="md-nav" aria-label="3. Exemplos de Requisições">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2697,15 +2643,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-filtros-e-busca" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Filtros e Busca
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#resumo" class="md-nav__link">
     <span class="md-ellipsis">
       Resumo
@@ -2746,10 +2683,10 @@
 <p>Com base na configuração do roteamento, as URLs disponíveis são:</p>
 <ul>
 <li><strong>Listar todos os conteúdos</strong>: <code>GET /api/contents/</code></li>
-<li><strong>Criar um novo conteúdo</strong>: <code>POST /api/contents/</code> (Requer autenticação)</li>
+<li><strong>Criar um novo conteúdo</strong>: <code>POST /api/contents/</code> </li>
 <li><strong>Ver detalhes de um conteúdo específico</strong>: <code>GET /api/contents/&lt;id&gt;/</code></li>
 <li><strong>Atualizar um conteúdo</strong>: <code>PUT /api/contents/&lt;id&gt;/</code> (Requer autenticação)</li>
-<li><strong>Deletar um conteúdo</strong>: <code>DELETE /api/contents/&lt;id&gt;/</code> (Requer autenticação)</li>
+<li><strong>Deletar um conteúdo</strong>: <code>DELETE /api/contents/&lt;id&gt;/</code> </li>
 </ul>
 <h3 id="2-acessando-via-navegador">2. <strong>Acessando via Navegador</strong></h3>
 <p>Se você estiver rodando o servidor de desenvolvimento do Django localmente, use o comando:</p>
@@ -2760,42 +2697,11 @@
 <li><strong><a href="http://127.0.0.1:8000/api/contents/">Listar</a></strong> — para listar todos os conteúdos.</li>
 </ul>
 <p>O Django REST framework oferece uma interface de navegação de API embutida. Se você acessar a API pelo navegador, verá uma interface amigável onde pode visualizar, criar, editar e excluir registros.</p>
-<h3 id="3-autenticacao-de-usuario">3. <strong>Autenticação de Usuário</strong></h3>
-<p>Alguns endpoints (como criar, atualizar e deletar conteúdo) requerem que o usuário esteja autenticado. Existem várias maneiras de se autenticar:</p>
-<h4 id="a-autenticacao-de-sessao">a) <strong>Autenticação de Sessão</strong></h4>
-<p>Se você estiver logado como usuário no Django Admin, pode testar a API no mesmo navegador porque as credenciais de sessão serão reutilizadas.</p>
-<ol>
-<li>Acesse o Django Admin em <code>http://127.0.0.1:8000/admin/</code>.</li>
-<li>Faça login com um superusuário.</li>
-<li>Agora, vá para <code>http://127.0.0.1:8000/api/contents/</code> e você poderá fazer operações autenticadas diretamente no navegador.</li>
-</ol>
-<h4 id="b-autenticacao-basica-basic-auth">b) <strong>Autenticação Básica (Basic Auth)</strong></h4>
-<p>Para testar com ferramentas como <strong>Postman</strong> ou <strong>cURL</strong>, você pode usar autenticação básica.</p>
-<p><strong>No Postman</strong>:</p>
-<ol>
-<li>No cabeçalho da requisição, vá até a aba "Authorization".</li>
-<li>Selecione o tipo "Basic Auth".</li>
-<li>Insira seu <strong>username</strong> e <strong>password</strong>.</li>
-</ol>
-<p><strong>Com cURL</strong>:
-Você pode usar o seguinte comando no terminal para criar um novo conteúdo (por exemplo):</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>http://127.0.0.1:8000/api/contents/<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span>-u<span class="w"> </span>&lt;username&gt;:&lt;password&gt;<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="s1">        &quot;title&quot;: &quot;Sample Video&quot;,</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="s1">        &quot;description&quot;: &quot;A sample video description&quot;,</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="s1">        &quot;file_url&quot;: &quot;http://example.com/sample.mp4&quot;,</span>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="s1">        &quot;thumbnail_url&quot;: &quot;http://example.com/thumb.jpg&quot;,</span>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="s1">        &quot;content_type&quot;: &quot;video&quot;,</span>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="s1">        &quot;is_public&quot;: true</span>
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="s1">      }&#39;</span>
-</span></code></pre></div>
-<h3 id="4-exemplos-de-requisicoes">4. <strong>Exemplos de Requisições</strong></h3>
+<h3 id="3-exemplos-de-requisicoes">3. <strong>Exemplos de Requisições</strong></h3>
 <h4 id="a-get-listar-todos-os-conteudos">a) <strong>GET - Listar todos os conteúdos</strong></h4>
 <p>Você pode listar todos os conteúdos disponíveis com a seguinte requisição:</p>
 <p><strong>Com cURL</strong>:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>GET<span class="w"> </span>http://127.0.0.1:8000/api/contents/
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>GET<span class="w"> </span>http://127.0.0.1:8000/api/contents/
 </span></code></pre></div>
 <h4 id="b-post-criar-um-novo-conteudo">b) <strong>POST - Criar um novo conteúdo</strong></h4>
 <p>Para criar um novo conteúdo, você precisa estar autenticado e fornecer os dados adequados:</p>
@@ -2805,57 +2711,35 @@ Você pode usar o seguinte comando no terminal para criar um novo conteúdo (por
 <li>No campo URL, insira <code>http://127.0.0.1:8000/api/contents/</code>.</li>
 <li>Vá até a aba "Body" e selecione <code>raw</code> com o tipo <code>JSON</code>, e insira algo como:</li>
 </ol>
-<div class="language-json highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My Video&quot;</span><span class="p">,</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A video description&quot;</span><span class="p">,</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="nt">&quot;file_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://example.com/video.mp4&quot;</span><span class="p">,</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="nt">&quot;thumbnail_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://example.com/thumbnail.jpg&quot;</span><span class="p">,</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="nt">&quot;content_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;video&quot;</span><span class="p">,</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="nt">&quot;is_public&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="p">}</span>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My Video&quot;</span><span class="p">,</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A video description&quot;</span><span class="p">,</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">&quot;file_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://example.com/video.mp4&quot;</span><span class="p">,</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="nt">&quot;thumbnail_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://example.com/thumbnail.jpg&quot;</span><span class="p">,</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="nt">&quot;content_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;video&quot;</span><span class="p">,</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nt">&quot;is_public&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="p">}</span>
 </span></code></pre></div>
 <ol>
 <li>Envie a requisição.</li>
 </ol>
 <h4 id="c-put-atualizar-um-conteudo">c) <strong>PUT - Atualizar um conteúdo</strong></h4>
-<p>Atualizar um conteúdo requer que você esteja autenticado e seja o criador do conteúdo.</p>
 <p><strong>Com cURL</strong>:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>PUT<span class="w"> </span>http://127.0.0.1:8000/api/contents/&lt;id&gt;/<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span>-u<span class="w"> </span>&lt;username&gt;:&lt;password&gt;<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="s1">        &quot;title&quot;: &quot;Updated Video Title&quot;,</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="s1">        &quot;description&quot;: &quot;Updated description&quot;</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="s1">      }&#39;</span>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>PUT<span class="w"> </span>http://127.0.0.1:8000/api/contents/&lt;id&gt;/<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="s1">        &quot;title&quot;: &quot;Updated Video Title&quot;,</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="s1">        &quot;description&quot;: &quot;Updated description&quot;</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="s1">      }&#39;</span>
 </span></code></pre></div>
 <h4 id="d-delete-remover-um-conteudo">d) <strong>DELETE - Remover um conteúdo</strong></h4>
-<p>Para deletar um conteúdo (somente se você for o criador ou administrador):</p>
+<p>Para deletar um conteúdo:</p>
 <p><strong>Com cURL</strong>:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span>http://127.0.0.1:8000/api/contents/&lt;id&gt;/<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span>-u<span class="w"> </span>&lt;username&gt;:&lt;password&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span>http://127.0.0.1:8000/api/contents/&lt;id&gt;/
 </span></code></pre></div>
-<h3 id="5-filtros-e-busca">5. <strong>Filtros e Busca</strong></h3>
-<p>Você pode adicionar filtros de busca com base nos campos do modelo <code>Content</code> (como <code>title</code>, <code>content_type</code>, etc.), integrando a funcionalidade de filtros no Django REST framework usando <code>DjangoFilterBackend</code>.</p>
-<p>Exemplo de adição de filtro para busca por título ou tipo de conteúdo:</p>
-<p><strong>No <code>views.py</code></strong>:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">viewsets</span><span class="p">,</span> <span class="n">filters</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="kn">from</span> <span class="nn">django_filters.rest_framework</span> <span class="kn">import</span> <span class="n">DjangoFilterBackend</span>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="k">class</span> <span class="nc">ContentViewSet</span><span class="p">(</span><span class="n">viewsets</span><span class="o">.</span><span class="n">ModelViewSet</span><span class="p">):</span>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Content</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ContentSerializer</span>
-</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    <span class="n">filter_backends</span> <span class="o">=</span> <span class="p">[</span><span class="n">DjangoFilterBackend</span><span class="p">,</span> <span class="n">filters</span><span class="o">.</span><span class="n">SearchFilter</span><span class="p">]</span>
-</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>    <span class="n">search_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;content_type&#39;</span><span class="p">]</span>
-</span></code></pre></div>
-<p>Agora você pode buscar por título ou tipo de conteúdo:</p>
-<ul>
-<li><code>GET /api/contents/?search=My Video</code></li>
-<li><code>GET /api/contents/?search=audio</code></li>
-</ul>
 <h3 id="resumo">Resumo</h3>
 <ol>
 <li>Acesse a API via <code>http://127.0.0.1:8000/api/contents/</code>.</li>
-<li>Utilize autenticação para operações que requerem login (POST, PUT, DELETE).</li>
 <li>Use ferramentas como Postman ou cURL para testar os endpoints.</li>
 <li>Adicione filtros ou funcionalidades adicionais conforme necessário.</li>
 </ol>
@@ -2912,7 +2796,7 @@ Você pode usar o seguinte comando no terminal para criar um novo conteúdo (por
         
         
           
-          <a href="../05_Playlist/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 05 - Playlist -Relacionamento NxN">
+          <a href="../05_Playlist%20NxN/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 05 - Playlist -Relacionamento NxN">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Próximo
