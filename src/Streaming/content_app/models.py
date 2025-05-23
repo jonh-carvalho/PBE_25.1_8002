@@ -39,13 +39,3 @@ class Playlist(models.Model):
     def __str__(self):
         return self.title
     
-
-content = Content.objects.create(
-    title="Django Tutorial",
-    description="A comprehensive tutorial on Django framework.",
-    file_url="https://example.com/videos/django_tutorial.mp4",
-    thumbnail_url="https://example.com/thumbnails/django_thumb.jpg",
-    content_type="video",
-    is_public=True,
-    creator_id=1  # Assuming user with ID 1 exists
-)
