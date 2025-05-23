@@ -14,7 +14,7 @@
 | __10__ - 25/04/25     | :material-check: Roteiro Django Rest- Introdução SQL - Sqlite  |
 | __11__ - 02/05/25     | :material-check: Feriado |
 | __12__ - 09/05/25     | :material-check: Roteiro Streaming - Content 1xN|
-| __13__ - 16/05/25     | :material-check: Roteiro Streaming - PlayList NxN|
+| __13__ - 16/05/25     | :material-check: Roteiro Streaming - PlayList NxN - [Protótipo](https://www.figma.com/design/cX8mG3fK90aDRvKdE1PcjB/AMIP?t=hLCy4Aqm06gAKbU3-1) |
 | __14__ - 23/05/25     | :material-check: App |
 | __15__ - 30/05/25     | :material-check: App |
 | __16__ - 06/06/25     | :material-check: App |
