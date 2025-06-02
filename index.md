@@ -1,6 +1,7 @@
 # Projetos de Extensão 
 
-## [Projeto BackEnd 8002 25.1](https://jonh-carvalho.github.io/PBE_25.1_8002/) [Em conjunto com a disciplina de Projeto Mobile - Professor Thiago Souza]
+## [Projeto BackEnd 8002 25.1](https://jonh-carvalho.github.io/PBE_25.1_8002/) 
+- Em conjunto com a disciplina de Projeto Mobile - Professor Thiago Souza
 
 
 ### Censo Demográfico Ilha Primeira (AMIP - Associação de Moradores da Ilha Primeira)
