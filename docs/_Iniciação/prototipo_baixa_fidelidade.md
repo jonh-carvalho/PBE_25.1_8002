@@ -20,55 +20,55 @@ Iniciamos o projeto através dos levantamentos iniciais da equipe, após discuss
 
 ### Tela Login
 
-[![Prototipo 1](../assets/prototipo/prototipo_1.png)](../assets/prototipo/prototipo_1.png)
+[![Prototipo 1](../assets/prototipo/image.png)](../assets/prototipo/image.png)
 
 ### Tela Cadastro 1
 
-[![Prototipo 2](../assets/prototipo/prototipo_2.png)](../assets/prototipo/prototipo_2.png)
+[![Prototipo 2](../assets/prototipo/image.png)](../assets/prototipo/image.png)
 
 ### Tela Cadastro 2
 
-[![Prototipo 3](../assets/prototipo/prototipo_3.png)](../assets/prototipo/prototipo_3.png)
+[![Prototipo 3](../assets/prototipo/image.png)](../assets/prototipo/prototipo_3.png)
 
 ### Tela Esqueceu Senha
 
-[![Prototipo 4](../assets/prototipo/prototipo_4.png)](../assets/prototipo/prototipo_4.png)
+[![Prototipo 4](../assets/prototipo/prototipo_4.png)](../assets/prototipo/image.png)
 
 ### Tela do Feed
 
-[![Prototipo 5](../assets/prototipo/prototipo_5.png)](../assets/prototipo/prototipo_5.png)
+[![Prototipo 5](../assets/prototipo/image.png)](../assets/prototipo/image.png)
 
 ### Tela Feed com configurações
 
-[![Prototipo 6](../assets/prototipo/prototipo_6.png)](../assets/prototipo/prototipo_6.png)
+[![Prototipo 6](../assets/prototipo/image.png)](../assets/prototipo/image.png)
 
 ### Tela Perfil
 
-[![Prototipo 7](../assets/prototipo/prototipo_7.png)](../assets/prototipo/prototipo_7.png)
+[![Prototipo 7](../assets/prototipo/image.png)](../assets/prototipo/image.png)
 
 ### Tela Cadastrar torneio 1
 
-[![Prototipo 8](../assets/prototipo/prototipo_8.png)](../assets/prototipo/prototipo_8.png)
+[![Prototipo 8](../assets/prototipo/image.png)](../assets/prototipo/prototipo_8.png)
 
 ### Tela Cadastrar torneio 2
 
-[![Prototipo 9](../assets/prototipo/prototipo_9.png)](../assets/prototipo/prototipo_9.png)
+[![Prototipo 9](../assets/prototipo/prototipo_9.png)](../assets/prototipo/image.png)
 
 ### Tela Cadastrar torneio 3
 
-[![Prototipo 10](../assets/prototipo/prototipo_10.png)](../assets/prototipo/prototipo_10.png)
+[![Prototipo 10](../assets/prototipo/image.png)](../assets/prototipo/image.png)
 
 ### Tela Cadastrar torneio 4
 
-[![Prototipo 11](../assets/prototipo/prototipo_11.png)](../assets/prototipo/prototipo_11.png)
+[![Prototipo 11](../assets/prototipo/image.png)](../assets/prototipo/image.png)
 
 ### Tela com meus torneios
 
-[![Prototipo 12](../assets/prototipo/prototipo_12.png)](../assets/prototipo/prototipo_12.png)
+[![Prototipo 12](../assets/prototipo/image.png)](../assets/prototipo/image.png)
 
 ### Tela de inscrição em torneio
 
-[![Prototipo 13](../assets/prototipo/prototipo_13.png)](../assets/prototipo/prototipo_13.png)
+[![Prototipo 13](../assets/prototipo/image.png)](../assets/prototipo/image.png)
 
 <p align = "justify">
 Na primeira versão do protótipo utilizamos a ferramenta <a href="https://material.io/resources/color/#!/?view.left=0&view.right=0">Material Design Color Tool</a>  para auxiliar na criação da paleta de cores do aplicativo, definimos as cores base do aplicativo mas as cores definidas para as telas 12 e 13 ainda não foram decididas.
