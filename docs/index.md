@@ -30,7 +30,7 @@ Censo Demográfico Ilha Primeira (AMIP - Associação de Moradores da Ilha Prime
 
     Enzo Guedes, Felipe Sales, Guilherme Lopes, Luca Confente, Pedro Henrique
 
-    [:octicons-arrow-right-24: Customization](https://github.com/Projetos-de-Extensao/PBE_25.1_8002_BackLink)
+    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_25.1_8002_BackLink)
 
 -   :material-github:{ .lg .middle } __PBE_25.1_8002_BackByte__
 
@@ -38,7 +38,7 @@ Censo Demográfico Ilha Primeira (AMIP - Associação de Moradores da Ilha Prime
 
     Augusto Amorim, Bernardo Ottan, Eduardo Andrade, Eduardo Jacob, Pedro Mynssen, Vitor Oliveira
 
-    [:octicons-arrow-right-24: License](https://github.com/Projetos-de-Extensao/PBE_25.1_8002_IV)
+    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_25.1_8002_IV)
 
 -   :material-github:{ .lg .middle } __PBE_25.1_8002_QuarterBackers__
 
@@ -46,7 +46,7 @@ Censo Demográfico Ilha Primeira (AMIP - Associação de Moradores da Ilha Prime
 
     Enzo Lazzarotto, Franc Wang, Estevão Moraes, Gabriel Corrêa,  Marcelle Lohane, Raphael de Oliveira Costa
 
-    [:octicons-arrow-right-24: License](https://github.com/Projetos-de-Extensao/PBE_25.1_8002_V)
+    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_25.1_8002_V)
 
 </div>
 
