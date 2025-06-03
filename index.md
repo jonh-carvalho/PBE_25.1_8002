@@ -2,7 +2,7 @@
 
 ## [Projeto BackEnd 8002 25.1](https://jonh-carvalho.github.io/PBE_25.1_8002/) 
     
-    Censo Demográfico Ilha Primeira (AMIP - Associação de Moradores da Ilha Primeira). Em conjunto com a disciplina de Projeto Mobile - Professor Thiago Souza - 
+enso Demográfico Ilha Primeira (AMIP - Associação de Moradores da Ilha Primeira). Em conjunto com a disciplina de Projeto Mobile - Professor Thiago Souza - 
 
 #### [PBE_25.1_8002_I_Stack-UnderFlow](https://github.com/Projetos-de-Extensao/PBE_25.1_8002_Stack-UnderFlow)
 - Bárbara Malta, Eduardo Peruzzo, Mateus Sachinho, Pedro dos Santos, Vinicius da Luz
