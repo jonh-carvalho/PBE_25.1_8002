@@ -20,55 +20,55 @@ Iniciamos o projeto através dos levantamentos iniciais da equipe, após discuss
 
 ### Tela Login
 
-[![Prototipo 1](../assets/prototipo/prototipo_1.png)](../assets/prototipo/prototipo_1.png)
+[![Prototipo 1](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Cadastro 1
 
-[![Prototipo 2](../assets/prototipo/prototipo_2.png)](../assets/prototipo/prototipo_2.png)
+[![Prototipo 2](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Cadastro 2
 
-[![Prototipo 3](../assets/prototipo/prototipo_3.png)](../assets/prototipo/prototipo_3.png)
+[![Prototipo 3](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Esqueceu Senha
 
-[![Prototipo 4](../assets/prototipo/prototipo_4.png)](../assets/prototipo/prototipo_4.png)
+[![Prototipo 4](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela do Feed
 
-[![Prototipo 5](../assets/prototipo/prototipo_5.png)](../assets/prototipo/prototipo_5.png)
+[![Prototipo 5](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Feed com configurações
 
-[![Prototipo 6](../assets/prototipo/prototipo_6.png)](../assets/prototipo/prototipo_6.png)
+[![Prototipo 6](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Perfil
 
-[![Prototipo 7](../assets/prototipo/prototipo_7.png)](../assets/prototipo/prototipo_7.png)
+[![Prototipo 7](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Cadastrar torneio 1
 
-[![Prototipo 8](../assets/prototipo/prototipo_8.png)](../assets/prototipo/prototipo_8.png)
+[![Prototipo 8](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Cadastrar torneio 2
 
-[![Prototipo 9](../assets/prototipo/prototipo_9.png)](../assets/prototipo/prototipo_9.png)
+[![Prototipo 9](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Cadastrar torneio 3
 
-[![Prototipo 10](../assets/prototipo/prototipo_10.png)](../assets/prototipo/prototipo_10.png)
+[![Prototipo 10](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Cadastrar torneio 4
 
-[![Prototipo 11](../assets/prototipo/prototipo_11.png)](../assets/prototipo/prototipo_11.png)
+[![Prototipo 11](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela com meus torneios
 
-[![Prototipo 12](../assets/prototipo/prototipo_12.png)](../assets/prototipo/prototipo_12.png)
+[![Prototipo 12](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela de inscrição em torneio
 
-[![Prototipo 13](../assets/prototipo/prototipo_13.png)](../assets/prototipo/prototipo_13.png)
+[![Prototipo 13](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 <p align = "justify">
 Na primeira versão do protótipo utilizamos a ferramenta <a href="https://material.io/resources/color/#!/?view.left=0&view.right=0">Material Design Color Tool</a>  para auxiliar na criação da paleta de cores do aplicativo, definimos as cores base do aplicativo mas as cores definidas para as telas 12 e 13 ainda não foram decididas.
@@ -76,53 +76,59 @@ Na primeira versão do protótipo utilizamos a ferramenta <a href="https://mater
 
 ### Versão 2.0
 
+### Versão 1.0
+
 ### Tela Login
 
-[![Prototipo 1](../assets/prototipo/tela_de_login.png)](../assets/prototipo/tela_de_login.png)
+[![Prototipo 1](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-### Tela Cadastro
+### Tela Cadastro 1
 
-[![Prototipo 2](../assets/prototipo/registrar.png)](../assets/prototipo/registrar.png)
+[![Prototipo 2](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastro 2
+
+[![Prototipo 3](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Esqueceu Senha
 
-[![Prototipo 3](../assets/prototipo/esqueceu_a_senha.png)](../assets/prototipo/esqueceu_a_senha.png)
-
-### Tela Perfil
-
-[![Prototipo 4](../assets/prototipo/editar_perfil.png)](../assets/prototipo/editar_perfil.png)
+[![Prototipo 4](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela do Feed
 
-[![Prototipo 5](../assets/prototipo/feed.png)](../assets/prototipo/feed.png)
+[![Prototipo 5](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-### Tela Cadastrar em um torneio
+### Tela Feed com configurações
 
-[![Prototipo 6](../assets/prototipo/cadastrar_no_torneio.png)](../assets/prototipo/cadastrar_no_torneio.png)
+[![Prototipo 6](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-### Tela Cadastrar torneio
+### Tela Perfil
 
-[![Prototipo 7](../assets/prototipo/cadastrar_torneio.png)](../assets/prototipo/cadastrar_torneio.png)
+[![Prototipo 7](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastrar torneio 1
+
+[![Prototipo 8](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 ### Tela Cadastrar torneio 2
 
-[![Prototipo 8](../assets/prototipo/cadastrar_torneio_2.png)](../assets/prototipo/cadastrar_torneio_2.png)
+[![Prototipo 9](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-### Tela dos meus torneios
+### Tela Cadastrar torneio 3
 
-[![Prototipo 9](../assets/prototipo/meus_torneios.png)](../assets/prototipo/meus_torneios.png)
+[![Prototipo 10](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-### Tela das chaves do torneio
+### Tela Cadastrar torneio 4
 
-[![Prototipo 10](../assets/prototipo/ver_torneio.png)](../assets/prototipo/ver_torneio.png)
+[![Prototipo 11](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-### Tela das estatíscicas
+### Tela com meus torneios
 
-[![Prototipo 11](../assets/prototipo/ver_estatisticas.png)](../assets/prototipo/ver_estatisticas.png)
+[![Prototipo 12](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-### Tela de adicionar resultado das partidas
+### Tela de inscrição em torneio
 
-[![Prototipo 12](../assets/prototipo/adicionar_resultado_da_partida.png)](../assets/prototipo/adicionar_resultado_da_partida.png)
+[![Prototipo 13](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
 link para o `<a href="https://www.figma.com/file/karoCnQtvMXWHEwdMuhQs0/Prototipo?node-id=0%3A1">`Protótipo`</a>`
 
