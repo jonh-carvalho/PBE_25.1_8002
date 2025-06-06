@@ -1,6 +1,6 @@
-# Documentação Extraída do Figma AMIP
+# Documentação extraída do figma amip
 
-## Questionário do Censo Demográfico 2022
+## Questionário do censo demográfico 2022
 
 - Quais pontos de coleta de lixo específicos da residencia
 - Quanto tempo demorou para o a conclusão do processo de falecimento da pessoa
@@ -13,79 +13,118 @@
 
 Nomes das ruas:
 
-- R. Marina do Sol
-- R. Marina do Frade
-- R. Marina dos Coqueiros
-- R. Marina da Lua
-- R. Marina do Bosque
-- R. Marina Porto Bali
-- R. Marina das Flores
-- R. Marina das Estrelas
-- R. Marina Ponta Leste
+- R. marina do sol
+- R. marina do frade
+- R. marina dos coqueiros
+- R. marina da lua
+- R. marina do bosque
+- R. marina porto bali
+- R. marina das flores
+- R. marina das estrelas
+- R. marina ponta leste
 
 ----------------------------------------------------------------------------------------------------
 
 ### 1. Identificação de domicilio
 
-- numero da casa
-- endereço
-- espécie de domicilio ocupado:
-[ ] domicilio particular permanente ocupado
-[ ] domicilio particular improvisado ocupado
-[ ] domicilio coletivo com morador
-- tipo:
-[ ] casa
-[ ] casa de vila ou condomínio
-[ ] habitação em casa de cômodos ou cortiço 
-[ ] estrutura residencial permanente degradada ou inacabada
-[ ] asilo ou outra instituição de permanência para idosos
-[ ] hotel ou pensão
-[ ] alojamento
-[ ] outros
+- Numero da casa
+- Endereço
+- Espécie de domicilio ocupado:
 
-### 2. Informações Sobre os Moradores
+[ ] Domicilio particular permanente ocupado
+
+[ ] Domicilio particular improvisado ocupado
+
+[ ] Domicilio coletivo com morador
+
+- Tipo:
+
+[ ] Casa
+
+[ ] Casa de vila ou condomínio
+
+[ ] Habitação em casa de cômodos ou cortiço 
+
+[ ] Estrutura residencial permanente degradada ou inacabada
+
+[ ] Asilo ou outra instituição de permanência para idosos
+
+[ ] Hotel ou pensão
+
+[ ] Alojamento
+
+[ ] Outros
+
+### 2. Informações sobre os moradores
 
 - Nome
 - Sobrenome
-- sexo: masculino ou feminino
-- data de nascimento
+- Sexo: masculino ou feminino
+- Data de nascimento
 
-- relação de parentesco com a pessoa responsável pelo domicilio
+#### Relação de parentesco
 
-[ ] pessoa responsável pelo domicilio
-[ ] CÔNJUGE OU COMPANHEIRO(A) DE SEXO DIFERENTE
-[ ] CÔNJUGE OU COMPANHEIRO(A) DO MESMO SEXO
-[ ] FILHO(A) DO RESPONSÁVEL E DO CÔNJUGE
-[ ] FILHO(A) SOMENTE DO RESPONSÁVEL
-[ ] PESSOA RESPONSÁVEL PELO DOMICÍLIO
-[ ] GENRO OU NORA
-[ ] PAI, MÃE, PADRASTO OU MADRASTA
-[ ] SOGRO(A)
-[ ] NETO(A)
-[ ] ENTEADO(A)
-[ ] IRMÃO OU IRMÃ
-[ ] AVÔ OU AVÓ
-[ ] OUTRO PARENTE
-[ ] AGREGADO(A)
-[ ] BISNETO(A)
-[ ] PENSIONISTA
-[ ] EMPREGADO(A) DOMÉSTICO(A)
-[ ] PARENTE DO(A) EMPREGADO(A) DOMÉSTICO(A)
-[ ] INDIVIDUAL EM DOMICÍLIO COLETIVO
+- Relação de parentesco com a pessoa responsável pelo domicilio
+
+[ ] Pessoa responsável pelo domicilio
+
+[ ] Cônjuge ou companheiro(a) de sexo diferente
+
+[ ] Cônjuge ou companheiro(a) do mesmo sexo
+
+[ ] Filho(a) do responsável e do cônjuge
+
+[ ] Filho(a) somente do responsável
+
+[ ] Pessoa responsável pelo domicílio
+
+[ ] Genro ou nora
+
+[ ] Pai, mãe, padrasto ou madrasta
+
+[ ] Sogro(a)
+
+[ ] Neto(a)
+
+[ ] Enteado(a)
+
+[ ] Irmão ou irmã
+
+[ ] Avô ou avó
+
+[ ] Outro parente
+
+[ ] Agregado(a)
+
+[ ] Bisneto(a)
+
+[ ] Pensionista
+
+[ ] Empregado(a) doméstico(a)
+
+[ ] Parente do(a) empregado(a) doméstico(a)
+
+[ ] Individual em domicílio coletivo
 
 - Este domicilio é:
 
-[ ] AINDA PAGANDO
-[ ] ALUGADO
-[ ] POR EMPREGADOR
-[ ] POR FAMILIAR
-[ ] OUTRA FORMA
-[ ]OUTRA CONDIÇÃO
-[ ] JÁ PAGO, HERDADO OU GANHO
+[ ] Ainda pagando
+
+[ ] Alugado
+
+[ ] Por empregador
+
+[ ] Por familiar
+
+[ ] Outra forma
+
+[ ] Outra condição
+
+[ ] Já pago, herdado ou ganho
 
 - Distribuição de agua***
 
-CARACTERÍSTICAS DE DOMICILIO
+Características de domicilio
 
 - Quantos cômodos tem esse domicilio
 - Quantos destes são dormitórios para os moradores do domicilio
@@ -94,202 +133,283 @@ CARACTERÍSTICAS DE DOMICILIO
 - Algum morador tem acesso a internet no domicilio
 - Tem uma maquina de lavar roupa
 
-### 3. Registro Civil
+### 3. Registro civil
 
 - Tem registro de nascimento:
-[ ] do cartório
-[ ] registro administrativo de nascimento indígena
-[ ] não tem
-[ ] não sabe
+
+[ ] Do cartório
+
+[ ] Registro administrativo de nascimento indígena
+
+[ ] Não tem
+
+[ ] Não sabe
 
 ### 4. Nupcialidade
 
--possui conjuge ou companheiro(a)?
-[ ] sim
-[ ] nao
+- Possui conjuge ou companheiro(a)?
 
-- vivem em companhia de cônjuge ou companheiro
+[ ] Sim
 
-[ ] sim
-[ ] nao
+[ ] Nao
 
-- nome do cônjuge
-- tipo da união
-[ ] casamento civil e religioso
-[ ] so casamento civil
-[ ] so casamento religioso
-[ ] união consensual
+- Vivem em companhia de cônjuge ou companheiro
 
-### 5. TRABALHOU OU ESTAGIOU EM ALGUMA ATIVIDADE REMUNERADA EM DINHEIRO?
+[ ] Sim
 
-[ ] sim
-[ ] não
+[ ] Nao
 
-- QUANTOS TRABALHOS TINHA NOS ÚLTIMOS MESES?
+- Nome do cônjuge
+- Tipo da união
+
+[ ] Casamento civil e religioso
+
+[ ] So casamento civil
+
+[ ] So casamento religioso
+
+[ ] União consensual
+
+### 5. Trabalhou ou estagiou em alguma atividade remunerada em dinheiro?
+
+[ ] Sim
+
+[ ] Não
+
+- Quantos trabalhos tinha nos últimos meses?
+
 [ ] 1
+
 [ ] 2
+
 [ ] 3 ou mais
 
-- QUAL ERA A OCUPAÇÃO, CARGO OU FUNÇÃO QUE TINHA NESSE TRABALHO?
+- Qual era a ocupação, cargo ou função que tinha nesse trabalho?
+
 {caixa de texto}
 
-- QUAL ERA A PRINCIPAL ATIVIDADE DO NEGÓCIO OU EMPRESA EM QUE TINHA ESSE TRABALHO?
+- Qual era a principal atividade do negócio ou empresa em que tinha esse trabalho?
+
 {caixa de texto}
 
 <!-- se trabalha na ilha -->
 
-- NESSE TRABALHO TINHA CARTEIRA DE TRABALHO ASSINADA?
+- Nesse trabalho tinha carteira de trabalho assinada?
 
-[ ] sim
-[ ] não
+[ ] Sim
 
-ESSE NEGÓCIO OU EMPRESA ERA REGISTRADO NO CADASTRO NACIONAL DE PESSOA JURÍDICA - CNPJ?
+[ ] Não
 
-[ ] sim
-[ ] não
+Esse negócio ou empresa era registrado no cadastro nacional de pessoa jurídica - cnpj?
 
-FAIXA DE RENDIMENTO:
+[ ] Sim
+
+[ ] Não
+
+Faixa de rendimento:
 
 [ 1 ] - 1,00 a 500,00
+
 [ 2 ] - 501,00 a 1.000,00
+
 [ 3 ] - 1.001,00 a 2.000,00
+
 [ 4 ] - 2.001,00 a 3.000,00
+
 [ 5 ] - 3.001,00 a 5.000,00
+
 [ 6 ] - 5.001,00 a 10.000,00
+
 [ 7 ] - 10.001,00 a 20.000,00
+
 [ 8 ] - 20.001,00 a 100.000
+
 [ 9 ] - 100.001 ou mais
 
-### 6 - FALECEU ALGUMA PESSOA QUE MORAVA COM VOCÊ(S)? (Inclusive recém-nascidos e idosos)
+### 6 - Faleceu alguma pessoa que morava com você(s)? (inclusive recém-nascidos e idosos)
 
-[ ] sim
-[ ] não
+[ ] Sim
 
-- MÊS E ANO DE FALECIMENTO:
+[ ] Não
+
+- Mês e ano de falecimento:
+
 {caixa de texto}
 
-NOME:
-SOBRENOME:
-SEXO:
+Nome:
+
+Sobrenome:
+
+Sexo:
+
 [ ] Masculino
 [ ] Feminino
 [ ] Outros
 
-- QUANTOS ANOS TINHA AO FALECER?
+- Quantos anos tinha ao falecer?
+
 {caixa de texto}
 
-### 7.PESSOAS COM DEFICIÊNCIA (PARA PESSOAS DE 2 ANOS OU MAIS DE IDADE)
+### 7. Pessoas com deficiência (para pessoas de 2 anos ou mais de idade)
 
-#### 7.01 TEM DIFICULDADE PERMANENTE PARA ENXERGAR, MESMO USANDO
+#### 7.01 Tem dificuldade permanente para enxergar, mesmo usando
 
-[ 1 ] ÓCULOS OU LENTES DE CONTATO?
-[ 2 ] TEM MUITA DIFICULDADE
-[ 3 ] TEM, NÃO CONSEGUE DE MODO ALGUM
-[ 4 ] TEM ALGUMA DIFICULDADE
-[ 5 ] NÃO TEM DIFICULDADE
+[ 1 ] Óculos ou lentes de contato?
 
-#### 7.03 TEM DIFICULDADE PERMANENTE PARA ANDAR OU SUBIR DEGRAUS, MESMO USANDO PRÓTESE, BENGALA OU APARELHO DE AUXÍLIO?
+[ 2 ] Tem muita dificuldade
 
-[ 1 ] TEM MUITA DIFICULDADE
-[ 2 ] TEM, NÃO CONSEGUE DE MODO ALGUM
-[ 3 ] TEM ALGUMA DIFICULDADE
-[ 4 ] NÃO TEM DIFICULDADE
+[ 3 ] Tem, não consegue de modo algum
 
-### 8.EDUCAÇÃO
+[ 4 ] Tem alguma dificuldade
 
-- PARA PESSOAS DE 5 ANOS OU MAIS DE IDADE
+[ 5 ] Não tem dificuldade
 
-#### 8. 01 SABE LER E ESCREVER?
+#### 7.03 Tem dificuldade permanente para andar ou subir degraus, mesmo usando prótese, bengala ou aparelho de auxílio?
 
-[ ] SIM
-[ ] NÃO
+[ 1 ] Tem muita dificuldade
 
-PARA TODAS AS PESSOAS
+[ 2 ] Tem, não consegue de modo algum
 
-8.02 FREQUENTA ESCOLA OU CRECHE?
-(Escola inclui desde cursos da pré-escola até o doutorado)
+[ 3 ] Tem alguma dificuldade
 
-[ ] SIM 
-[ ] NÃO, MAS JÁ FREQUENTOU
-[ ] NÃO, NUNCA FREQUENTOU
+[ 4 ] Não tem dificuldade
 
-8.03 QUAL É O CURSO QUE FREQUENTA?
+### 8. Educação
 
-[ ] PRÉ ESCOLA
-[ ] CRECHE
-[ ] ALFABETIZAÇÃO DE JOVENS E ADULTOS
-[ ] REGULAR DO ENSINO FUNDAMENTA
-[ ] EDUCAÇÃO DE JOVENS E ADULTOS (EJA) DO ENSINO FUNDAMENTAL
-[ ] REGULAR DO ENSINO MÉDIO
-[ ] SUPERIOR DE GRADUAÇÃO
-[ ] EDUCAÇÃO DE JOVENS E ADULTOS (EJA) DO ENSINO MÉDIO
-[ ] ESPECIALIZAÇÃO DE NÍVEL SUPERIOR(DURAÇÃO MÍNIMA DE 360 HORAS)
-[ ] MESTRADO
-[ ] DOUTORADO
-[ ] NENHUM
+- Para pessoas de 5 anos ou mais de idade
 
-8.04 JÁ CONCLUIU ALGUM OUTRO CURSO SUPERIOR DE GRADUAÇÃO?
-[ ] SIM 
-[ ] NÃO
+#### 8. 01 Sabe ler e escrever?
 
-### 9.DESLOCAMENTO PARA TRABALHO (PARA PESSOA QUE TRABALHA)
+[ ] Sim
 
-#### 9.01 EM QUE MUNICÍPIO OU PAÍS ESTRANGEIRO TRABALHA?
+[ ] Não
 
-[ ] APENAS EM CASA OU NA PROPRIEDADE/NESTE MUNICÍPIO
-[ ] FORA DE CASA E DA PROPRIEDADE/NESTE MUNICÍPIO
-[ ] EM OUTRO MUNICÍPIO DO BRASIL
-[ ] EM OUTRO PAÍS
-[ ] EM MAIS DE UM MUNICÍPIO OU PAÍS 
+Para todas as pessoas
 
-##### 9.01.1 ESTADO:
+8.02 Frequenta escola ou creche?
 
-##### 9.01.2 MUNICÍPIO:
+(escola inclui desde cursos da pré-escola até o doutorado)
 
-##### 9.01.3 PAÍS:
+[ ] Sim 
+
+[ ] Não, mas já frequentou
+
+[ ] Não, nunca frequentou
+
+8.03 Qual é o curso que frequenta?
+
+[ ] Pré escola
+
+[ ] Creche
+
+[ ] Alfabetização de jovens e adultos
+
+[ ] Regular do ensino fundamenta
+
+[ ] Educação de jovens e adultos (eja) do ensino fundamental
+
+[ ] Regular do ensino médio
+
+[ ] Superior de graduação
+
+[ ] Educação de jovens e adultos (eja) do ensino médio
+
+[ ] Especialização de nível superior(duração mínima de 360 horas)
+
+[ ] Mestrado
+
+[ ] Doutorado
+
+[ ] Nenhum
+
+8.04 Já concluiu algum outro curso superior de graduação?
+
+[ ] Sim 
+
+[ ] Não
+
+### 9. Deslocamento para trabalho (para pessoa que trabalha)
+
+#### 9.01 Em que município ou país estrangeiro trabalha?
+
+[ ] Apenas em casa ou na propriedade/neste município
+
+[ ] Fora de casa e da propriedade/neste município
+
+[ ] Em outro município do brasil
+
+[ ] Em outro país
+
+[ ] Em mais de um município ou país 
+
+##### 9.01.1 Estado:
+
+##### 9.01.2 Município:
+
+##### 9.01.3 País:
 	
-#### 9.02 RETORNA DO TRABALHO PARA CASA 3 DIAS OU MAIS NA SEMANA? (Considerar a semana de 7 dias)
-[ ] SIM
-[ ] NÃO
+#### 9.02 Retorna do trabalho para casa 3 dias ou mais na semana? (considerar a semana de 7 dias)
 
-##### 9.03 QUANTO TEMPO LEVA ENTRE SUA CASA E O LOCAL DE TRABALHO NORMALMENTE?
+[ ] Sim
 
-Considerar o deslocamento casa-trabalho preferencialmente. Caso não seja possível, considerar o deslocamento de retorno (trabalho-casa).
+[ ] Não
 
-	9.03.1 HORAS:
+##### 9.03 Quanto tempo leva entre sua casa e o local de trabalho normalmente?
 
-	9.03.2 MINUTOS:
+Considerar o deslocamento casa-trabalho preferencialmente. caso não seja possível, considerar o deslocamento de retorno (trabalho-casa).
 
-	9.03.3 NÃO SE DESLOCA PARA UM LOCAL DE TRABALHO
+9.03.1 Horas:
 
-9.04 QUAL O PRINCIPAL MEIO DE TRANSPORTE UTILIZADO PARA CHEGAR AO LOCAL DE TRABALHO?
+9.03.2 Minutos:
+
+9.03.3 Não se desloca para um local de trabalho
+
+9.04 Qual o principal meio de transporte utilizado para chegar ao local de trabalho?
 Se utiliza vários meios de transporte, inclusive a pé, indique o que passa mais tempo.
 
-[ ] A PÉ 
-[ ] BICICLETA
-[ ] MOTOCICLETA 
-[ ] MOTOTÁXI
-	5 - AUTOMÓVEL 
-	6 - TÁXI OU ASSEMELHADOS
-	7 - VAN, PERUA OU ASSEMELHADOS
-	8 - ÔNIBUS
-	11 - CAMINHONETE OU CAMINHÃO ADAPTADO (PAU DE ARARA)
-	12 - EMBARCAÇÃO DE MÉDIO E GRANDE PORTE (ACIMA DE 20 PESSOAS)
-	13 - EMBARCAÇÃO DE PEQUENO PORTE (ATÉ 20 PESSOAS)
-	14 - OUTROS
+[ ] A pé 
 
-10.AUTISMO (PARA TODAS AS PESSOAS)
-10.01 JÁ FOI DIAGNOSTICADO(A) COM AUTISMO POR ALGUM PROFISSIONAL DE SAÚDE?
-	1 - SIM
-	2 - NÃO
+[ ] Bicicleta
 
-11.PRESTAÇÃO DAS INFORMAÇÕES (PARA TODAS AS PESSOAS)
+[ ] Motocicleta 
+
+[ ] Mototáxi
+
+5 - Automóvel 
+
+6 - Táxi ou assemelhados
+
+7 - Van, perua ou assemelhados
+
+8 - Ônibus
+
+11 - Caminhonete ou caminhão adaptado (pau de arara)
+
+12 - Embarcação de médio e grande porte (acima de 20 pessoas)
+
+13 - Embarcação de pequeno porte (até 20 pessoas)
+
+14 - Outros
+
+10. Autismo (para todas as pessoas)
+
+10.01 Já foi diagnosticado(a) com autismo por algum profissional de saúde?
+
+1 - Sim
+
+2 - Não
+
+11. Prestação das informações (para todas as pessoas)
 Quem logou para responder as perguntas
 
-12 DADOS DE CONTATO
-12.01 NOME:
-12.02 EMAIL
-12.03 TELEFONE:
+12. Dados de contato
 
-13.Religião ou Culto
-	-6.01.1 QUAL É SUA RELIGIÃO OU CULTO?
+12.01 Nome:
+
+12.02 Email
+
+12.03 Telefone:
+
+13. Religião ou culto
+
+-6.01.1 Qual é sua religião ou culto?
