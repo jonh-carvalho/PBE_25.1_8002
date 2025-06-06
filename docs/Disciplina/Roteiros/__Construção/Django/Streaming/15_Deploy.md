@@ -2,6 +2,8 @@
 
 O **deploy mais simples** de um projeto **Django REST com SQLite** é usando o **[Render.com](https://render.com/)** — ideal para testes, MVPs ou protótipos.
 
+Tutorial Render/[Django Postgres](https://render.com/docs/deploy-django)
+
 ---
 
 ## ✅ 1. **Pré-requisitos**
