@@ -22,6 +22,9 @@ theme:
     - content.code.select
     - content.code.annotate 
 
+extra_css:
+  - css/extra.css
+
 plugins:
   - search
   - mkdocs-jupyter:

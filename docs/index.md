@@ -3,6 +3,9 @@ hide:
   - navigation
   - toc
 ---  
+
+# Apresentação AP2 - Sexta 13/06/2025 - <div class="time">9h50</div>
+
 Censo Demográfico Ilha Primeira (AMIP - Associação de Moradores da Ilha Primeira), desenvolvido em conjunto com a disciplina de Projeto Mobile - Professor Thiago Souza 
 
 <div class="grid cards" markdown>
