@@ -4,6 +4,8 @@ O **deploy mais simples** de um projeto **Django REST com SQLite** é usando o *
 
 Tutorial Render/[Django Postgres](https://render.com/docs/deploy-django)
 
+Tutorial deploy com apenas um [Fork do repositório](https://github.com/render-examples/django)
+
 ---
 
 ## ✅ 1. **Pré-requisitos**
