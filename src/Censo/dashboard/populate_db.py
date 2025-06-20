@@ -1,3 +1,15 @@
+# Script para popular o banco de dados do Censo com dados fictícios
+# Este script deve ser executado no ambiente Django configurado
+# Certifique-se de que o Django esteja instalado e configurado corretamente
+# para executar este script, use o comando:
+# python populate_db.py
+## Certifique-se de que o Django esteja configurado corretamente
+# para executar este script, você deve estar no diretório raiz do projeto Django
+# e o ambiente virtual ativado, se estiver usando um.
+## Exemplo de uso:
+# python manage.py shell < populate_db.py
+
+import sys
 import os
 import django
 import random

@@ -1,4 +1,6 @@
-
+# Dashboard Censo Demográfico IBGE 2022
+# Este é um exemplo de dashboard interativo usando Streamlit para visualizar dados fictícios do censo demográfico.
+# Os dados são gerados aleatoriamente e não representam informações reais.
 import streamlit as st
 import pandas as pd
 import numpy as np

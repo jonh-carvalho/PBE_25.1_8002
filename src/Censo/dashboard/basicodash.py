@@ -1,3 +1,6 @@
+# Consome informações de uma API RESTful para exibir dados do Censo Demográfico IBGE 2022
+# Desenvolvido para fins educacionais, com dados fictícios.
+
 import streamlit as st
 import pandas as pd
 import numpy as np

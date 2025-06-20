@@ -1,3 +1,17 @@
+# Dashboard Streamlit para Visualização de Dados do Censo Demográfico
+# Este script cria um dashboard interativo usando Streamlit para visualizar os dados coletados pelo c
+# censo, com base no questionário do Censo 2022 do IBGE.
+## Requisitos:
+# - Streamlit   
+# - Requests
+# - Pandas
+# - Matplotlib
+# - Seaborn
+# - Faker (para gerar dados fictícios, se necessário)
+# - Django (para rodar a API que fornece os dados)
+# - Django REST Framework (para a API)
+# - Certifique-se de que sua API Django esteja rodando e acessível na URL configurada abaixo.
+
 import streamlit as st
 import requests
 import pandas as pd
